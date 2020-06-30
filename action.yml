@@ -1,0 +1,10 @@
+name: 'G11n Radar'
+description: 'Wait a designated number of milliseconds'
+inputs:
+  skip:  # id of input
+    description: 'number of milliseconds to wait'
+    required: true
+    default: ''
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
