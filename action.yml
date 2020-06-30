@@ -1,6 +1,9 @@
 name: 'G11n Radar'
 description: 'Wait a designated number of milliseconds'
 inputs:
+  access-token:
+    description: 'github token'
+    required: true
   skip:  # id of input
     description: 'number of milliseconds to wait'
     required: true
