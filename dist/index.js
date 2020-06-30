@@ -1206,7 +1206,7 @@ const exec = __webpack_require__(986);
 const core = __webpack_require__(470);
 const github = __webpack_require__(469);
 
-async function report(accessToken, annotations) {
+async function annotationGenerate(accessToken, annotations) {
     const octokit = new github.GitHub(accessToken);
     const req = {
       ...github.context.repo,
@@ -1277,7 +1277,7 @@ async function run() {
             }
         }
         annotations = [annotation, ...annotations];
-        await report(accessToken, annotations)
+        await annotationGenerate(accessToken, annotations)
     } catch (error) {
         core.setFailed(error.message);
     }
