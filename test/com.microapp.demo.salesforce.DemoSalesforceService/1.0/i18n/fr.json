@@ -21,7 +21,7 @@
     "6ac03c82-14c7-4f54-86d6-39b564e5c41a" : "Account",
     "53819e9c-0d39-44b8-8fa8-3eeaa0488f55" : "No contacts to display",
     "4286984c-e21e-4c86-9658-ac22d4d58783" : "Existing Customer - Upgrade",
-    "eb43c422-da48-40c0-8ad4-44ba3dcf2c9d" : "You are now the owner of \"{{name}}\" with a value of {{format amount \"currency\"}}.",
+    "eb43c422-da48-40c0-8ad4-44ba3dcf2c9d" : "You are now the owner of with a value of {{format amount \"currency\"}}.",
     "ca526eae-949c-4f6a-b101-d284d6820d2b" : "Create New Opportunity",
     "331568b5-0659-40cf-93c6-8a7a056080ac" : "Account Detail",
     "f43e170d-d2a7-496d-bedd-5f425eec2723" : "Close Date",
