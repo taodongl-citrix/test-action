@@ -1207,7 +1207,7 @@ const core = __webpack_require__(470);
 const github = __webpack_require__(469);
 
 async function annotationGenerate(accessToken, annotations) {
-    const octokit = new github.GitHub(accessToken);
+    const octokit = new github.getOctokit(accessToken);
     const req = {
       ...github.context.repo,
       ref: github.context.sha,
