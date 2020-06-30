@@ -4,6 +4,7 @@
     "49241690-f764-4e84-91df-a9ab29fb1401" : "Amount",
     "6bfc8c1c-3153-4b99-b3d7-d31a2b63d663" : "You are now the owner of \"{{name}}\" with a value of {{format amount \"currency\"}}.",
     "09c21600-e3ea-4571-98cc-89da7f3d253a" : "Industry",
+    "09c21600-e3ea-4571-98cc-89da7f3d253a" : "Industry2",
     "734141b1-c283-4387-89c6-8f9f5a540ae9" : "Create Opportunity",
     "257ad08b-5749-4db5-b82a-6bc6ab93d3e9" : "Amount",
     "651daad6-9377-4969-a0c4-3e1a61a12a7a" : "Address",
