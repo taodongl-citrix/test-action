@@ -1214,12 +1214,15 @@ async function annotationGenerate(accessToken, annotations) {
     };
     const res = await octokit.checks.listForRef(req);
     const jobName = process.env.GITHUB_JOB;
-
+    res.data.check_runs.forEach(check => {
+      console.log("" + check)
+      console.log(check.name)
+    })
     const checkRun = res.data.check_runs.find(
       (check) => check.name === jobName
     );
     if (!checkRun) {
-      console.log(jobName);
+      console.log("current job:" + jobName);
       console.log(
         "Can happen when performing a pull request from a forked repository."
       );
