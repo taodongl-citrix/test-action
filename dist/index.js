@@ -1214,10 +1214,7 @@ async function annotationGenerate(accessToken, annotations) {
     };
     const res = await octokit.checks.listForRef(req);
     const jobName = process.env.GITHUB_JOB;
-    res.data.check_runs.forEach(check => {
-      console.log("" + check)
-      console.log(check.name)
-    })
+    console.log(JSON.stringify(res.data));
     const checkRun = res.data.check_runs.find(
       (check) => check.name === jobName
     );
