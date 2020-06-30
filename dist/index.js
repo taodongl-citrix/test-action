@@ -1210,8 +1210,11 @@ async function annotationGenerate(accessToken, annotations) {
     const octokit = new github.getOctokit(accessToken);
     const req = {
       ...github.context.repo,
-      ref: github.context.ref,
+      ref: github.context.sha,
     };
+    if (github.context.payload['pull_request']) {
+      req.ref = github.context.payload.pull_request.head.sha
+    }
     const res = await octokit.checks.listForRef(req);
     const jobName = process.env.GITHUB_JOB;
     console.log(JSON.stringify(github.context));
