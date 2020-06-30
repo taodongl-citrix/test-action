@@ -1210,25 +1210,24 @@ async function annotationGenerate(accessToken, annotations) {
     const octokit = new github.getOctokit(accessToken);
     const req = {
       ...github.context.repo,
-      ref: github.context.sha,
+      ref: github.context.ref,
     };
     const res = await octokit.checks.listForRef(req);
     const jobName = process.env.GITHUB_JOB;
-    res.data.check_runs.forEach(check => {
-      console.log("" + check)
-      console.log(check.name)
-    })
+    console.log(JSON.stringify(github.context));
+    console.log(JSON.stringify(res.data));
     const checkRun = res.data.check_runs.find(
       (check) => check.name === jobName
     );
     if (!checkRun) {
-      console.log("current job:" + jobName);
+      console.log("current job++: " + jobName);
       console.log(
         "Can happen when performing a pull request from a forked repository."
       );
       return;
     }
     const check_run_id = checkRun.id;
+    // const check_run_id = github.context.runId;
 
     const update_req = {
       ...github.context.repo,
