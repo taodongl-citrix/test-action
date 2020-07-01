@@ -56,7 +56,8 @@ async function run() {
         console.log("parameter: " + skipList)
         console.log("radar: " + radar)
         console.log("project: " + project)
-        await exec.exec(radar, ['-p', project, '-d', report, 'rule', '--skip', skipList]);
+        const skips = skipList.split(',')
+        await exec.exec(radar, ['-p', project, '-d', report, 'rule', '--skip', 'bundlegen/', ...skips]);
         const data = await fs.promises.readFile(report);
         var json = JSON.parse(data);
         const annotation_level = json.errors > 0 ? "failure" : "notice";
