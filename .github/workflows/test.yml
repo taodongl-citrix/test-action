@@ -14,5 +14,5 @@ jobs:
       - name: G11n Analysis
         uses: ./
         with:
-          access-token: ${{ secrets.GITHUB_TOKEN }}
+          access-token: ${{ secrets.REVIEWTOKEN }}
           skip: 'bin/ lib/'
