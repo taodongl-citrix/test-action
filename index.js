@@ -3,6 +3,7 @@ const path = require('path');
 const exec = require('@actions/exec');
 const core = require("@actions/core");
 const github = require("@actions/github");
+const artifact = require('@actions/artifact');
 
 async function generateAnnotation(octokit, json) {
   let annotations = [];
@@ -71,6 +72,8 @@ async function generateReviews(octokit, json) {
 
 async function handleEvent(accessToken, json) {
   const octokit = new github.getOctokit(accessToken);
+  console.log(github.repository)
+  console.log(JSON.stringify(github));
   if (github.context.eventName === 'push') {
     // add annotations
     await generateAnnotation(octokit, json)
@@ -97,6 +100,8 @@ async function run() {
     if (json.errors == 0) {
       return;
     } else {
+      const artifactClient = artifact.create();
+      await artifactClient.uploadArtifact("g11n-result", [report], project);
       await handleEvent(accessToken, json);
       core.setFailed('g11n issues exist');
     }
