@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: G11n Analysis
-        uses: ./
+        uses: citrix-workspace/g11n-scan@action-dev
         # if: github.repository == 'taodongl-citrix/test-action'
         with:
           access-token: ${{ secrets.GITHUB_TOKEN }}
