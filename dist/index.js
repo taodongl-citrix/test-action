@@ -2172,9 +2172,7 @@ async function generateAnnotation(octokit, json) {
   const jobName = process.env.GITHUB_JOB;
   const checkRun = res.data.check_runs.find(check => ((check.name === jobName) && (check.status !== 'completed')));
   if (!checkRun) {
-    console.log(
-      "Can happen when performing a pull request from a forked repository."
-    );
+    core.warning("Can happen when performing a pull request from a forked repository.");
     return;
   }
   const check_run_id = checkRun.id;
@@ -2197,37 +2195,41 @@ async function generateReviews(octokit, json) {
     ...github.context.repo, // owner & repo
     pull_number, 
     event: 'COMMENT',
-    body: 'please fix g11n issues',
+    body: 'Please fix g11n issues\nContact Globalization team in https://citrix.slack.com/archives/CJKDCKS4B for more information',
   }
   await octokit.pulls.createReview(req);
 }
 
 async function handleEvent(accessToken, json) {
-  console.log("access token: " + accessToken);
   const octokit = new github.getOctokit(accessToken);
-  console.log(github.repository)
-  console.log(JSON.stringify(github));
   if (github.context.eventName === 'push') {
     // add annotations
-    await generateAnnotation(octokit, json)
+    await generateAnnotation(octokit, json);
   } else if (github.context.eventName === 'pull_request') {
-    // review comments
-    await generateReviews(octokit, json)
+    // This action will not currently work for pull requests from forks 
+    // -- like is common in open source projects
+    // -- because the token for forked pull request workflows does not have write permissions.
+    if (!github.payload.pull_request.head.fork) {
+      // review comments
+      await generateReviews(octokit, json);
+    }
   }
 }
 
 async function run() {
   try {
     const skipList = core.getInput('skip');
-    const accessToken = core.getInput("access-token");
+    let accessToken = core.getInput("access-token");
     console.log("access token: " + accessToken);
-    const radar = path.resolve(__dirname, '..', 'bin', 'g11n-radar')
-    const project =  process.cwd()
-    const report = path.resolve(project, 'report.json')
-    console.log("parameter: " + skipList)
-    console.log("radar: " + radar)
-    console.log("project: " + project)
-    const skips = skipList.split(',')
+    if (!accessToken) {
+      core.setFailed('cannot get accessToken');
+      return;
+    }
+    const radar = '/opt/radar/bin/g11n-radar'
+    const project =  process.cwd();
+    const report = path.resolve(project, 'report.json');
+    core.debug("project: " + project);
+    const skips = skipList.split(',');
     await exec.exec(radar, ['-p', project, '-d', report, 'rule', '--skip', 'bundlegen/', ...skips]);
     const data = await fs.promises.readFile(report);
     var json = JSON.parse(data);
@@ -2241,11 +2243,12 @@ async function run() {
       core.setFailed('g11n issues exist');
     }
   } catch (error) {
-    core.setFailed(error.message);
+    core.setFailed(error);
   }
 }
 
 run();
+
 
 /***/ }),
 

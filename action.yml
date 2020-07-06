@@ -1,13 +1,15 @@
-name: 'G11n Radar'
-description: 'Wait a designated number of milliseconds'
+name: "g11n radar"
+
+description: "scan globalization issues in repo"
+
 inputs:
   access-token:
     description: 'github token'
     required: true
-  skip:  # id of input
-    description: 'number of milliseconds to wait'
+  skip:
+    description: 'comma separated folders, like: abc/,xyz/,foo/'
     required: true
-    default: ''
+
 runs:
-  using: 'node12'
-  main: 'dist/index.js'
+  using: "docker"
+  image: "Dockerfile"
