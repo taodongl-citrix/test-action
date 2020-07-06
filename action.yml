@@ -3,8 +3,8 @@ name: "g11n radar"
 description: "scan globalization issues in repo"
 
 inputs:
-  access-token:
-    description: 'github token'
+  repoToken:
+    description: "Authentication token, use secrets.GITHUB_TOKEN"
     required: true
   skip:
     description: 'comma separated folders, like: abc/,xyz/,foo/'
