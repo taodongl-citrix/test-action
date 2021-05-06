@@ -16,7 +16,7 @@ jobs:
           ref: ${{ github.event.pull_request.head.sha }}
       - name: Check Changed Files
         id: changed
-        uses: citrix-workspace/g11n-PR-changed-files@master
+        uses: taodongl-citrix/g11n-PR-changed-files@master
         with:
           paths: .*i18n/.*\.json
       - name: Slack Notification
