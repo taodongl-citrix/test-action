@@ -1,6 +1,6 @@
 {
   "dcac6581-11b8-46c9-bcf3-f014ec4f93bb" : {
-    "0dc8d035-679c-4051-850c-f906e3f43a72" : "New Customer",
+    "0dc8d035-679c-4051-850c-f906e3f43a72" : "New Customer111",
     "49241690-f764-4e84-91df-a9ab29fb1401" : "Amount",
     "6bfc8c1c-3153-4b99-b3d7-d31a2b63d663" : "You are now the owner of \"{{name}}\" with a value of {{format amount \"currency\"}}.",
     "09c21600-e3ea-4571-98cc-89da7f3d253a" : "Industry",
