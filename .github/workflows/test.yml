@@ -1,18 +1,28 @@
 name: "units-test"
 on:
-  pull_request:
-  push:
+  pull_request_target:
     branches:
       - master
 
 jobs:
-  # test action works running from the graph  
-  test:
+  PR-changed-files:
     runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
     steps:
-      - uses: actions/checkout@v2
-      - name: G11n Analysis
-        uses: ./
+      - name: Checkout source repository
+        uses: actions/checkout@v2
         with:
-          repoToken: ${{secrets.GITHUB_TOKEN}}
-          skip: 'bin/ lib/'
+          ref: ${{ github.event.pull_request.head.sha }}
+      - name: Check Changed Files
+        id: changed
+        uses: citrix-workspace/g11n-PR-changed-files@master
+        with:
+          paths: .*i18n/.*\.json
+      - name: Slack Notification
+        if: steps.changed.outputs.matched == 'true'
+        uses: archive/github-actions-slack@master        
+        with:          
+          slack-bot-user-oauth-access-token: ${{ secrets.SLACKBOT_TOKEN }}        
+          slack-channel: g11n-scanner-microapps       
+          slack-text: example--test-test
