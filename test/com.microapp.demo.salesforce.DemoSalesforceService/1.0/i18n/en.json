@@ -20,6 +20,7 @@
     "ea801697-44fc-424b-ba1b-8d9a7e67c4e3" : "Stage",
     "f4e10f00-a830-47c8-afe9-55bcce1f872c" : "Stage",
     "6ac03c82-14c7-4f54-86d6-39b564e5c41a" : "Account",
+    "6ac03c82-14c7-4f54-86d6-39b564e5c41a" : "Account2",
     "53819e9c-0d39-44b8-8fa8-3eeaa0488f55" : "No contacts to display",
     "4286984c-e21e-4c86-9658-ac22d4d58783" : "Existing Customer - Upgrade",
     "eb43c422-da48-40c0-8ad4-44ba3dcf2c9d" : "You are now the owner of \"{{name}}\" with a value of {{format amount \"currency\"}}.",
