@@ -14,6 +14,6 @@ jobs:
       - name: G11n Radar
         uses: citrix-workspace/g11n-scan@feature-PACMAN-3175
         with:
-          skip: 'bundles/coming_soon/, 'buundles/'
+          skip: 'bundles/coming_soon/,buundles/'
           slack-channel: gs-pipeline-notification
           slack-access-token: ${{ secrets.SLACKBOT_TOKEN }}
