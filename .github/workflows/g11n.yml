@@ -15,5 +15,5 @@ jobs:
         uses: taodongl-citrix/g11n-scan@master
         with:
           skip: 'bundles/coming_soon/,buundles/'
-          slackChannel: gs-pipeline-notification
-          slackToken: ${{ secrets.SLACKBOT_TOKEN }}
+          slack-channel: gs-pipeline-notification
+          slack-access-token: ${{ secrets.SLACKBOT_TOKEN }}
