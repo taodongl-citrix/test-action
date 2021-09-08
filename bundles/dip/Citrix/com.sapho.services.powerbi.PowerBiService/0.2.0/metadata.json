@@ -1,0 +1,33 @@
+{
+  "type" : "DIP",
+  "vendor" : "Citrix",
+  "id" : "com.sapho.services.powerbi.PowerBiService",
+  "trackingUuid" : "91f4a34e-edd4-485b-9f0f-df4d7b2cf7ce",
+  "version" : "0.2.0",
+  "title" : "Power BI",
+  "description" : "Integrate with Power BI to receive automated notifications for important reporting changes in Citrix Workspace.",
+  "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/ms-powerbi.394a2264d9f5fd50df5b617ca3a0a5ce.svg",
+  "masVersion" : "1.48.0-SNAPSHOT",
+  "categories" : [ "LEGACY" ],
+  "created" : "2020-12-04T12:39:50",
+  "deprecatedDate": "2021-03-01T00:00:00Z",
+  "eolDateWithSupport": "2021-06-01T00:00:00Z",
+  "supportsOAuthForActions" : false,
+  "i18nLanguages" : [ "de", "en", "es", "fr", "it", "ja", "nl", "pt-BR", "zh-CN" ],
+  "apps" : [ {
+    "uuid" : "747a706c-7066-4458-afa3-4a763a95f10b",
+    "title" : "Dashboards",
+    "numberOfEvents" : 0,
+    "action" : true
+  }, {
+    "uuid" : "f46edb45-ce3f-47fc-ab52-c4d2e8a55256",
+    "title" : "Reports",
+    "numberOfEvents" : 1,
+    "action" : true
+  } ],
+  "vaResolvers" : [ ],
+  "tags" : [ {
+    "tag" : "helpUrl",
+    "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-power-bi.html"
+  } ]
+}

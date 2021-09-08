@@ -1,0 +1,14 @@
+{
+  "type" : "HTTP",
+  "vendor" : "Citrix",
+  "id" : "NewServiceComingSoon",
+  "version" : "0.2.0-beta",
+  "title" : "Brand new super service",
+  "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/HTTP.b662c61cecf295906ef0af18be93b25a.svg",
+  "categories" : ["COMING_SOON", "INTERNAL_DEVELOPMENT" ],
+  "created" : "2020-03-18T10:14:29",
+  "tags" : [ {
+    "tag" : "helpUrl",
+    "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-jira.html"
+  } ]
+}

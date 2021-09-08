@@ -1,0 +1,48 @@
+{
+  "type" : "DIP",
+  "vendor" : "Citrix",
+  "id" : "com.sapho.services.concur.ConcurService",
+  "trackingUuid" : "01f5cf9f-9f92-49ba-8653-e10153bb3253",
+  "version" : "0.7.7",
+  "title" : "SAP Concur",
+  "description" : "Integrate with SAP Concur to submit requests and receive notifications about the status of requests.",
+  "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/Concur.7f4236c35298ebbe5598db9a66e70273.svg",
+  "masVersion" : "1.80.0.9ce9c25ef4f712a327feebf2ce0c3d679e87a558",
+  "categories" : [ "LEGACY" ],
+  "created" : "2021-04-19T14:47:52",
+  "deprecatedDate": "2021-10-01T00:00:00Z",
+  "eolDateWithSupport": "2022-01-01T00:00:00Z",
+  "supportsOAuthForActions" : true,
+  "i18nLanguages" : [ "de", "en", "es", "fr", "it", "ja", "nl", "pt-BR", "zh-CN" ],
+  "apps" : [ {
+    "uuid" : "6c2dd2c6-5653-4cc8-8eed-87f396eec941",
+    "trackingUuid" : "0d595252-ef65-4efb-a57c-8dd4dcab5440",
+    "title" : "Expenses",
+    "numberOfEvents" : 0,
+    "action" : true
+  }, {
+    "uuid" : "794a10cd-e950-484a-93f2-d01f0494f72c",
+    "trackingUuid" : "dabf40b7-a11a-4ce2-ad4a-a712f157f451",
+    "title" : "Approvals",
+    "numberOfEvents" : 3,
+    "action" : true
+  }, {
+    "uuid" : "9110dc9d-93fe-4f52-a6f5-8714461a6de3",
+    "trackingUuid" : "cb18e94f-0ff8-4875-9878-e203f74c782d",
+    "title" : "Itineraries",
+    "numberOfEvents" : 2,
+    "action" : true
+  }, {
+    "uuid" : "b2b05581-af17-4b5a-96a9-02f82c67239c",
+    "trackingUuid" : "51b9c871-58de-4370-96ef-8ecdb0a95f56",
+    "title" : "Reports",
+    "numberOfEvents" : 2,
+    "action" : true
+  } ],
+  "vaResolvers" : [ ],
+  "tags" : [ {
+    "tag" : "helpUrl",
+    "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-concur.html"
+  } ],
+  "hideAddButton" : false
+}

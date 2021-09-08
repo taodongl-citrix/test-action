@@ -1,0 +1,4684 @@
+{
+  "applications" : [ {
+    "appVersion" : {
+      "id" : "f837c0fe-e44d-4478-bd3a-621e2ecfdd50",
+      "serviceId" : 11,
+      "version" : 4,
+      "parameters" : {
+        "imageUrl" : "exported/event_create.9da9fec5cc8bbb127f8c74216483edda.svg",
+        "description" : "4bc0e281-725f-4dbd-9af3-cc10077fe233",
+        "buttonBar" : {
+          "items" : [ ]
+        },
+        "titleBar" : {
+          "left" : [ ],
+          "center" : [ ],
+          "right" : [ ]
+        },
+        "size" : { },
+        "forcedImport" : true,
+        "header" : { },
+        "theme" : { },
+        "navigationMenu" : {
+          "items" : [ ]
+        }
+      },
+      "pages" : [ {
+        "id" : "05510ac2-8246-4bcd-b960-762968f10db0",
+        "appId" : "f837c0fe-e44d-4478-bd3a-621e2ecfdd50",
+        "type" : "DETAIL",
+        "components" : [ {
+          "type" : "TABLE",
+          "appId" : "f837c0fe-e44d-4478-bd3a-621e2ecfdd50",
+          "columnId" : null,
+          "required" : false,
+          "textType" : 0,
+          "label" : "ca6a8eac-7846-432a-9db9-b7db3eb857f9",
+          "format" : "",
+          "foreignKeyId" : null,
+          "parentComponentId" : null,
+          "componentTableId" : 79,
+          "defaultLimit" : 20,
+          "parameters" : {
+            "tableconfig" : {
+              "noDataText" : "572dbd0d-db67-4e48-b97d-a0138a888b10",
+              "columns" : [ {
+                "id" : "kz20dn",
+                "label" : "9ecae13d-ef63-4b6c-94df-c3eabd7d84fb",
+                "aggregation" : "NONE",
+                "tableid" : 79,
+                "columnid" : 1005,
+                "type" : "SIMPLE",
+                "urlTemplate" : null,
+                "format" : "none",
+                "tableColumn" : {
+                  "columnType" : null
+                },
+                "conditional_format" : "null"
+              }, {
+                "template" : "8c017a36-c471-46d8-9ace-4e11e5be3737",
+                "id" : "27yol0",
+                "label" : "0da46faf-bc51-440c-8093-203832142902",
+                "aggregation" : "NONE",
+                "tableid" : 79,
+                "type" : "TEMPLATE",
+                "urlTemplate" : null,
+                "format" : "none",
+                "tableColumn" : {
+                  "columnType" : null
+                },
+                "conditional_format" : "null"
+              } ],
+              "images" : [ ],
+              "tableid" : 79,
+              "show_1_to_n" : "0",
+              "groupByColumns" : [ ],
+              "linkpageid" : "773eebbb-56a8-4ee1-9acc-f8c60b766f57",
+              "hideIfEmpty" : false,
+              "sortable" : 1,
+              "alignment" : "left"
+            }
+          },
+          "id" : "6581b24c-f584-4569-a301-377ba9fc1924",
+          "defaultvalue" : "",
+          "displayorder" : 1,
+          "componentTableId" : 573,
+          "defaultLimit" : 20
+        }, {
+          "type" : "BUTTON",
+          "appId" : "f837c0fe-e44d-4478-bd3a-621e2ecfdd50",
+          "columnId" : null,
+          "required" : false,
+          "textType" : 0,
+          "label" : "91a66a89-7dd7-4aa7-9483-3def697283c1",
+          "format" : "",
+          "foreignKeyId" : null,
+          "parentComponentId" : null,
+          "parameters" : {
+            "operationStack" : {
+              "operations" : [ {
+                "type" : "GOTO_PAGE",
+                "label" : "Go to Page",
+                "id" : "op_1hsg9o",
+                "appId" : "f837c0fe-e44d-4478-bd3a-621e2ecfdd50",
+                "pageId" : "a374b69c-dbb6-416c-a733-3afa2089994c"
+              } ]
+            },
+            "tone" : "PRIMARY",
+            "size" : "STANDARD",
+            "disabled" : 0,
+            "showInBladeFooter" : false
+          },
+          "id" : "f27ca869-f7bc-47ac-bff8-e0e965175f5c",
+          "defaultvalue" : "",
+          "displayorder" : 2
+        } ],
+        "title" : "674ec85f-e8f2-404b-a499-568fe0ebf616",
+        "logicConfiguration" : [ ],
+        "parameters" : { },
+        "tableid" : 79,
+        "datasourceid" : 11,
+        "pagetype" : "Detail",
+        "pagetype" : "Detail"
+      }, {
+        "id" : "773eebbb-56a8-4ee1-9acc-f8c60b766f57",
+        "appId" : "f837c0fe-e44d-4478-bd3a-621e2ecfdd50",
+        "type" : "DETAIL",
+        "components" : [ {
+          "type" : "FLEXIBLE_GRID",
+          "appId" : "f837c0fe-e44d-4478-bd3a-621e2ecfdd50",
+          "columnId" : null,
+          "required" : false,
+          "textType" : 0,
+          "label" : null,
+          "format" : "",
+          "foreignKeyId" : null,
+          "parentComponentId" : null,
+          "parameters" : {
+            "cellCount" : 6,
+            "visible" : 1,
+            "columnCount" : 2,
+            "columnWidths" : [ 1, 1 ]
+          },
+          "id" : "549eb565-8322-442c-ad80-efa089f956e1",
+          "defaultvalue" : "",
+          "displayorder" : 1
+        }, {
+          "type" : "GRID_ITEM",
+          "appId" : "f837c0fe-e44d-4478-bd3a-621e2ecfdd50",
+          "columnId" : null,
+          "required" : false,
+          "textType" : 0,
+          "label" : null,
+          "format" : "",
+          "foreignKeyId" : null,
+          "parentComponentId" : "549eb565-8322-442c-ad80-efa089f956e1",
+          "parameters" : {
+            "name" : "Grid Item4"
+          },
+          "id" : "bd4e7911-aa48-40bb-a134-c72480da8380",
+          "defaultvalue" : "",
+          "displayorder" : 1
+        }, {
+          "type" : "TEXT",
+          "appId" : "f837c0fe-e44d-4478-bd3a-621e2ecfdd50",
+          "columnId" : 1005,
+          "required" : false,
+          "textType" : 0,
+          "label" : "a47c635f-0de2-4d01-9a54-9b32bd305da7",
+          "format" : "none",
+          "foreignKeyId" : null,
+          "parentComponentId" : "bd4e7911-aa48-40bb-a134-c72480da8380",
+          "parameters" : {
+            "type" : "SIMPLE",
+            "operationStack" : {
+              "operations" : [ ]
+            },
+            "hideIfEmpty" : false,
+            "visible" : 1,
+            "conditional_format" : "{\"backcolor\":null,\"condition\":null,\"fillWholeRow\":null,\"option\":null,\"optionValue\":null,\"textcolor\":null}"
+          },
+          "id" : "aae73d89-7d4d-4cf3-a128-8c1baf66125f",
+          "defaultvalue" : "",
+          "displayorder" : 1
+        }, {
+          "type" : "TEXT",
+          "appId" : "f837c0fe-e44d-4478-bd3a-621e2ecfdd50",
+          "columnId" : 1015,
+          "required" : false,
+          "textType" : 0,
+          "label" : "47c87148-3e1a-43cb-aebe-fb47f324f6e7",
+          "format" : "none",
+          "foreignKeyId" : null,
+          "parentComponentId" : "08d45314-2b97-4f39-bfb7-8642c78cb2ce",
+          "parameters" : {
+            "type" : "SIMPLE",
+            "operationStack" : {
+              "operations" : [ ]
+            },
+            "hideIfEmpty" : false,
+            "visible" : 1,
+            "conditional_format" : "{\"backcolor\":null,\"condition\":null,\"fillWholeRow\":null,\"option\":null,\"optionValue\":null,\"textcolor\":null}"
+          },
+          "id" : "d27a82a6-df50-400d-8dba-5b114b0b79d0",
+          "defaultvalue" : "",
+          "displayorder" : 1
+        }, {
+          "type" : "TEXT",
+          "appId" : "f837c0fe-e44d-4478-bd3a-621e2ecfdd50",
+          "columnId" : 1013,
+          "required" : false,
+          "textType" : 0,
+          "label" : "7811bbcd-10b9-40fe-b62c-f5a7986bd34f",
+          "format" : "datetime",
+          "foreignKeyId" : null,
+          "parentComponentId" : "2b1ca015-fa2f-4861-8848-3113a0a42424",
+          "parameters" : {
+            "type" : "SIMPLE",
+            "operationStack" : {
+              "operations" : [ ]
+            },
+            "hideIfEmpty" : false,
+            "visible" : 1,
+            "conditional_format" : "{\"backcolor\":null,\"condition\":null,\"fillWholeRow\":null,\"option\":null,\"optionValue\":null,\"textcolor\":null}"
+          },
+          "id" : "1ff1afab-236f-464f-946f-e014f27253c5",
+          "defaultvalue" : "",
+          "displayorder" : 1
+        }, {
+          "type" : "TEXT",
+          "appId" : "f837c0fe-e44d-4478-bd3a-621e2ecfdd50",
+          "columnId" : 1014,
+          "required" : false,
+          "textType" : 0,
+          "label" : "e72e8db1-70bd-4286-a014-dd86f530653e",
+          "format" : "datetime",
+          "foreignKeyId" : null,
+          "parentComponentId" : "468bef20-434f-4fcd-b2d3-92bc6c3d6b9f",
+          "parameters" : {
+            "type" : "SIMPLE",
+            "operationStack" : {
+              "operations" : [ ]
+            },
+            "hideIfEmpty" : false,
+            "visible" : 1,
+            "conditional_format" : "{\"backcolor\":null,\"condition\":null,\"fillWholeRow\":null,\"option\":null,\"optionValue\":null,\"textcolor\":null}"
+          },
+          "id" : "f5822662-cbee-4643-b463-4b911b10889d",
+          "defaultvalue" : "",
+          "displayorder" : 1
+        }, {
+          "type" : "TEXT",
+          "appId" : "f837c0fe-e44d-4478-bd3a-621e2ecfdd50",
+          "columnId" : 1024,
+          "required" : false,
+          "textType" : 0,
+          "label" : "72af3ee9-1608-4b68-98ac-afe04db70791",
+          "format" : "none",
+          "foreignKeyId" : null,
+          "parentComponentId" : "ee8db456-8830-433e-ae53-cf85bdd76f21",
+          "parameters" : {
+            "type" : "SIMPLE",
+            "operationStack" : {
+              "operations" : [ ]
+            },
+            "hideIfEmpty" : false,
+            "visible" : 1,
+            "conditional_format" : "{\"backcolor\":null,\"condition\":null,\"fillWholeRow\":null,\"option\":null,\"optionValue\":null,\"textcolor\":null}"
+          },
+          "id" : "c4b10e97-0408-4d0e-956c-d19b0ce2afaa",
+          "defaultvalue" : "",
+          "displayorder" : 1
+        }, {
+          "type" : "TEXT",
+          "appId" : "f837c0fe-e44d-4478-bd3a-621e2ecfdd50",
+          "columnId" : 1006,
+          "required" : false,
+          "textType" : 0,
+          "label" : "c2132c8f-7458-41dc-a359-8a4f6993e716",
+          "format" : "none",
+          "foreignKeyId" : null,
+          "parentComponentId" : "dc751641-db9c-4b86-8ad3-f7521c5c0abc",
+          "parameters" : {
+            "type" : "SIMPLE",
+            "operationStack" : {
+              "operations" : [ ]
+            },
+            "hideIfEmpty" : false,
+            "visible" : 1,
+            "conditional_format" : "{\"backcolor\":null,\"condition\":null,\"fillWholeRow\":null,\"option\":null,\"optionValue\":null,\"textcolor\":null}"
+          },
+          "id" : "31395e89-47b0-4ccf-b74d-95b4e4b583a5",
+          "defaultvalue" : "",
+          "displayorder" : 1
+        }, {
+          "type" : "TABLE",
+          "appId" : "f837c0fe-e44d-4478-bd3a-621e2ecfdd50",
+          "columnId" : null,
+          "required" : false,
+          "textType" : 0,
+          "label" : "142f2a69-ddc8-4168-a1ae-3495b033bf2b",
+          "format" : "",
+          "foreignKeyId" : null,
+          "parentComponentId" : null,
+          "componentTableId" : 79,
+          "defaultLimit" : 20,
+          "parameters" : {
+            "tableconfig" : {
+              "noDataText" : "a3908b29-b6d7-4541-bd8b-17603cc5a847",
+              "columns" : [ {
+                "foreignKeyId" : 65,
+                "id" : "47ttbh",
+                "label" : "cede72e6-0357-4b3f-be0f-ae821608fea2",
+                "aggregation" : "NONE",
+                "tableid" : 82,
+                "columnid" : 1049,
+                "type" : "SIMPLE",
+                "urlTemplate" : null,
+                "format" : "none",
+                "tableColumn" : {
+                  "columnType" : null
+                },
+                "conditional_format" : "null"
+              }, {
+                "foreignKeyId" : 65,
+                "id" : "1wbjva",
+                "label" : "3775888f-b65c-4c05-966f-fe6c0f51385d",
+                "aggregation" : "NONE",
+                "tableid" : 82,
+                "columnid" : 1050,
+                "type" : "SIMPLE",
+                "urlTemplate" : null,
+                "format" : "none",
+                "tableColumn" : {
+                  "columnType" : null
+                },
+                "conditional_format" : "null"
+              }, {
+                "foreignKeyId" : 65,
+                "id" : "2j2wjb",
+                "label" : "cfabab5c-2120-4c80-9a4f-ea34fa8e17d0",
+                "aggregation" : "NONE",
+                "tableid" : 82,
+                "columnid" : 1055,
+                "type" : "SIMPLE",
+                "format" : "none",
+                "tableColumn" : { }
+              } ],
+              "images" : [ ],
+              "tableid" : 79,
+              "show_1_to_n" : "1",
+              "groupByColumns" : [ ],
+              "hideIfEmpty" : true,
+              "sortable" : 1,
+              "alignment" : "left"
+            }
+          },
+          "id" : "f9dcd462-bc70-4635-b750-45ca4eae8f15",
+          "defaultvalue" : "",
+          "displayorder" : 2,
+          "componentTableId" : 573,
+          "defaultLimit" : 20
+        }, {
+          "type" : "GRID_ITEM",
+          "appId" : "f837c0fe-e44d-4478-bd3a-621e2ecfdd50",
+          "columnId" : null,
+          "required" : false,
+          "textType" : 0,
+          "label" : null,
+          "format" : "",
+          "foreignKeyId" : null,
+          "parentComponentId" : "549eb565-8322-442c-ad80-efa089f956e1",
+          "parameters" : {
+            "name" : "Grid Item4"
+          },
+          "id" : "08d45314-2b97-4f39-bfb7-8642c78cb2ce",
+          "defaultvalue" : "",
+          "displayorder" : 2
+        }, {
+          "type" : "GRID_ITEM",
+          "appId" : "f837c0fe-e44d-4478-bd3a-621e2ecfdd50",
+          "columnId" : null,
+          "required" : false,
+          "textType" : 0,
+          "label" : null,
+          "format" : "",
+          "foreignKeyId" : null,
+          "parentComponentId" : "549eb565-8322-442c-ad80-efa089f956e1",
+          "parameters" : {
+            "name" : "Grid Item4"
+          },
+          "id" : "2b1ca015-fa2f-4861-8848-3113a0a42424",
+          "defaultvalue" : "",
+          "displayorder" : 3
+        }, {
+          "type" : "GRID_ITEM",
+          "appId" : "f837c0fe-e44d-4478-bd3a-621e2ecfdd50",
+          "columnId" : null,
+          "required" : false,
+          "textType" : 0,
+          "label" : null,
+          "format" : "",
+          "foreignKeyId" : null,
+          "parentComponentId" : "549eb565-8322-442c-ad80-efa089f956e1",
+          "parameters" : {
+            "name" : "Grid Item5"
+          },
+          "id" : "468bef20-434f-4fcd-b2d3-92bc6c3d6b9f",
+          "defaultvalue" : "",
+          "displayorder" : 4
+        }, {
+          "type" : "GRID_ITEM",
+          "appId" : "f837c0fe-e44d-4478-bd3a-621e2ecfdd50",
+          "columnId" : null,
+          "required" : false,
+          "textType" : 0,
+          "label" : null,
+          "format" : "",
+          "foreignKeyId" : null,
+          "parentComponentId" : "549eb565-8322-442c-ad80-efa089f956e1",
+          "parameters" : {
+            "name" : "Grid Item6"
+          },
+          "id" : "ee8db456-8830-433e-ae53-cf85bdd76f21",
+          "defaultvalue" : "",
+          "displayorder" : 5
+        }, {
+          "type" : "GRID_ITEM",
+          "appId" : "f837c0fe-e44d-4478-bd3a-621e2ecfdd50",
+          "columnId" : null,
+          "required" : false,
+          "textType" : 0,
+          "label" : null,
+          "format" : "",
+          "foreignKeyId" : null,
+          "parentComponentId" : "549eb565-8322-442c-ad80-efa089f956e1",
+          "parameters" : {
+            "name" : "Grid Item7"
+          },
+          "id" : "dc751641-db9c-4b86-8ad3-f7521c5c0abc",
+          "defaultvalue" : "",
+          "displayorder" : 6
+        } ],
+        "title" : "c9ac3853-671c-435c-9457-e1d0e8c3c3d5",
+        "logicConfiguration" : [ ],
+        "parameters" : { },
+        "tableid" : 79,
+        "datasourceid" : 11,
+        "pagetype" : "Detail",
+        "pagetype" : "Detail"
+      }, {
+        "id" : "a374b69c-dbb6-416c-a733-3afa2089994c",
+        "appId" : "f837c0fe-e44d-4478-bd3a-621e2ecfdd50",
+        "type" : "DETAIL",
+        "components" : [ {
+          "type" : "BUTTON",
+          "appId" : "f837c0fe-e44d-4478-bd3a-621e2ecfdd50",
+          "columnId" : null,
+          "required" : false,
+          "textType" : 0,
+          "label" : "66c245d0-0664-4545-b20c-334c45001d64",
+          "format" : "",
+          "foreignKeyId" : null,
+          "parentComponentId" : "e5739d88-f5df-41af-9807-6189f1f75f3d",
+          "parameters" : {
+            "operationStack" : {
+              "operations" : [ {
+                "type" : "SERVICE_ACTION",
+                "label" : "Run Service Action",
+                "id" : "op_u7p5tp",
+                "children" : [ ],
+                "serviceAction" : {
+                  "type" : "ES",
+                  "id" : "ad0a1dcf-b615-45a7-9d30-b4f44aa9c91e",
+                  "name" : "Create event",
+                  "appId" : "f837c0fe-e44d-4478-bd3a-621e2ecfdd50",
+                  "parameters" : [ {
+                    "id" : "61d8ab00-e516-40e2-8cb7-b7243c8ccf4d",
+                    "parameterId" : "attendees",
+                    "valueType" : "COMPONENT",
+                    "componentId" : "090aa68b-02f2-4b72-9440-d3658867ebe4"
+                  }, {
+                    "id" : "e049c084-4b08-4324-b57d-4e87110b5caf",
+                    "parameterId" : "calendarId",
+                    "valueType" : "COMPONENT",
+                    "componentId" : "8e61e2f1-fac7-4c9e-9f89-5d1ca5949a4b"
+                  }, {
+                    "id" : "0587b542-9ee4-4d8f-ba7b-0bae37fd94a7",
+                    "parameterId" : "endTime",
+                    "valueType" : "COMPONENT",
+                    "componentId" : "a8cbc555-0f23-4b86-baca-2682ef033e8f"
+                  }, {
+                    "id" : "9f48998e-def2-4c73-aa6b-b9a7efa8d32f",
+                    "parameterId" : "startTime",
+                    "valueType" : "COMPONENT",
+                    "componentId" : "1ac6ed00-7630-4def-9789-9f7b3c38feba"
+                  }, {
+                    "id" : "1178c883-6eec-4d0a-9a1a-fc6632851047",
+                    "parameterId" : "summary",
+                    "valueType" : "COMPONENT",
+                    "componentId" : "26ef476a-aca7-4cf4-a439-c6ed33cb87da"
+                  }, {
+                    "id" : "ad78f21f-8290-4154-a454-042dc7f12155",
+                    "parameterId" : "allDayEvent",
+                    "valueType" : "COMPONENT",
+                    "componentId" : "aa7f0efe-fe4f-43c2-863f-bedaa1f3a955"
+                  }, {
+                    "id" : "1407818e-db75-4930-be11-b83803bc0b54",
+                    "parameterId" : "description",
+                    "valueType" : "COMPONENT",
+                    "componentId" : "3647ebd0-6595-492b-a89f-1d6593660b50"
+                  }, {
+                    "id" : "f98e0048-fcfb-414c-9bce-3e05a1c1bd9f",
+                    "parameterId" : "location",
+                    "valueType" : "COMPONENT",
+                    "componentId" : "74eaf941-f24e-4e34-b53c-07e3dd1ca1dc"
+                  } ],
+                  "serviceId" : 11
+                },
+                "serviceId" : 11
+              } ]
+            },
+            "tone" : "PRIMARY",
+            "size" : "STANDARD",
+            "disabled" : 0,
+            "showInBladeFooter" : true
+          },
+          "id" : "a4919043-af4d-413b-bc56-478bc0dade6b",
+          "defaultvalue" : "",
+          "displayorder" : 1
+        }, {
+          "type" : "FLEXIBLE_GRID",
+          "appId" : "f837c0fe-e44d-4478-bd3a-621e2ecfdd50",
+          "columnId" : null,
+          "required" : false,
+          "textType" : 0,
+          "label" : null,
+          "format" : "",
+          "foreignKeyId" : null,
+          "parentComponentId" : null,
+          "parameters" : {
+            "cellCount" : 10,
+            "visible" : 1,
+            "columnCount" : 2,
+            "columnWidths" : [ 1, 1 ]
+          },
+          "id" : "2fe42a7b-464f-4292-b92b-55c87ad6881a",
+          "defaultvalue" : "",
+          "displayorder" : 1
+        }, {
+          "type" : "GRID_ITEM",
+          "appId" : "f837c0fe-e44d-4478-bd3a-621e2ecfdd50",
+          "columnId" : null,
+          "required" : false,
+          "textType" : 0,
+          "label" : null,
+          "format" : "",
+          "foreignKeyId" : null,
+          "parentComponentId" : "2fe42a7b-464f-4292-b92b-55c87ad6881a",
+          "parameters" : {
+            "name" : "Grid Item3"
+          },
+          "id" : "1ea883de-551d-40ff-8a33-e04e052558ed",
+          "defaultvalue" : "",
+          "displayorder" : 1
+        }, {
+          "type" : "TEXT_INPUT",
+          "appId" : "f837c0fe-e44d-4478-bd3a-621e2ecfdd50",
+          "columnId" : null,
+          "required" : true,
+          "textType" : 0,
+          "label" : "6086860c-93a6-49a0-9dc5-28caf5ac5aad",
+          "format" : "",
+          "foreignKeyId" : null,
+          "parentComponentId" : "1ea883de-551d-40ff-8a33-e04e052558ed",
+          "parameters" : {
+            "field_width" : "large",
+            "visible" : 1,
+            "disabled" : 0
+          },
+          "id" : "26ef476a-aca7-4cf4-a439-c6ed33cb87da",
+          "defaultvalue" : "",
+          "displayorder" : 1
+        }, {
+          "type" : "SELECT",
+          "appId" : "f837c0fe-e44d-4478-bd3a-621e2ecfdd50",
+          "columnId" : null,
+          "required" : true,
+          "textType" : 0,
+          "label" : "53f683e3-39ff-43b0-a8f8-ab82f8a10ab3",
+          "format" : "none",
+          "foreignKeyId" : null,
+          "parentComponentId" : "f83fb9db-cbed-49ea-bac6-0546fefcb52f",
+          "parameters" : {
+            "fillType" : "DATABASE",
+            "customFilterItems" : [ ],
+            "manualOptions" : [ ],
+            "mapToDataColumn" : false,
+            "matchOptions" : "STARTS_WITH",
+            "field_width" : "large",
+            "fill_serviceId" : 11,
+            "fill_tableid" : 81,
+            "fill_columnid_value" : 1032,
+            "fill_columnid_display" : 1034,
+            "visible" : 1,
+            "optionLabelColumnType" : "STRING",
+            "autoload" : 0,
+            "disabled" : 0
+          },
+          "id" : "8e61e2f1-fac7-4c9e-9f89-5d1ca5949a4b",
+          "defaultvalue" : "",
+          "displayorder" : 1
+        }, {
+          "type" : "DATETIME",
+          "appId" : "f837c0fe-e44d-4478-bd3a-621e2ecfdd50",
+          "columnId" : null,
+          "required" : true,
+          "textType" : 0,
+          "label" : "46b6eee3-2525-42ea-a306-3c059f4ccd73",
+          "format" : "",
+          "foreignKeyId" : null,
+          "parentComponentId" : "04f5bb33-c4a1-40f5-8dcc-58cd27eb2df3",
+          "parameters" : {
+            "pickerType" : "DATE_TIME",
+            "useComponentValueAsMinimum" : false,
+            "useComponentValueAsMaximum" : false,
+            "field_width" : "large",
+            "visible" : 1
+          },
+          "id" : "1ac6ed00-7630-4def-9789-9f7b3c38feba",
+          "defaultvalue" : "CURRENT_TIMESTAMP",
+          "displayorder" : 1
+        }, {
+          "type" : "DATETIME",
+          "appId" : "f837c0fe-e44d-4478-bd3a-621e2ecfdd50",
+          "columnId" : null,
+          "required" : true,
+          "textType" : 0,
+          "label" : "7e00202b-4825-4a8e-8651-0ea704641cd1",
+          "format" : "",
+          "foreignKeyId" : null,
+          "parentComponentId" : "4260a5d6-ff63-47a6-ba6e-5e50adb7a300",
+          "parameters" : {
+            "pickerType" : "DATE_TIME",
+            "useComponentValueAsMinimum" : false,
+            "useComponentValueAsMaximum" : false,
+            "field_width" : "large",
+            "visible" : 1
+          },
+          "id" : "a8cbc555-0f23-4b86-baca-2682ef033e8f",
+          "defaultvalue" : "CURRENT_TIMESTAMP",
+          "displayorder" : 1
+        }, {
+          "type" : "TEXT_INPUT",
+          "appId" : "f837c0fe-e44d-4478-bd3a-621e2ecfdd50",
+          "columnId" : null,
+          "required" : false,
+          "textType" : 0,
+          "label" : "71a647e9-071b-4041-8170-12d8a4c4c68f",
+          "format" : "",
+          "foreignKeyId" : null,
+          "parentComponentId" : "97b5b093-7c4d-43f9-b6d5-bfd6f931aaaf",
+          "parameters" : {
+            "field_width" : "large",
+            "visible" : 1,
+            "disabled" : 0
+          },
+          "id" : "74eaf941-f24e-4e34-b53c-07e3dd1ca1dc",
+          "defaultvalue" : "",
+          "displayorder" : 1
+        }, {
+          "type" : "TEXT_INPUT",
+          "appId" : "f837c0fe-e44d-4478-bd3a-621e2ecfdd50",
+          "columnId" : null,
+          "required" : false,
+          "textType" : 0,
+          "label" : "9c415fc2-6966-4ffb-80c0-27f00ec20a93",
+          "format" : "",
+          "foreignKeyId" : null,
+          "parentComponentId" : "2f96020a-aadb-48ab-a962-dec73aa369c5",
+          "parameters" : {
+            "field_width" : "large",
+            "visible" : 1,
+            "disabled" : 0
+          },
+          "id" : "3647ebd0-6595-492b-a89f-1d6593660b50",
+          "defaultvalue" : "",
+          "displayorder" : 1
+        }, {
+          "type" : "TEXT_INPUT",
+          "appId" : "f837c0fe-e44d-4478-bd3a-621e2ecfdd50",
+          "columnId" : null,
+          "required" : true,
+          "textType" : 0,
+          "label" : "5e709ffc-0ce9-4d9b-bf34-298b02e255d4",
+          "format" : "",
+          "foreignKeyId" : null,
+          "parentComponentId" : "e362f77d-3ffb-41a8-9c0c-04f76eeab696",
+          "parameters" : {
+            "field_width" : "large",
+            "visible" : 1,
+            "disabled" : 0
+          },
+          "id" : "090aa68b-02f2-4b72-9440-d3658867ebe4",
+          "defaultvalue" : "",
+          "displayorder" : 1
+        }, {
+          "type" : "CHECKBOX",
+          "appId" : "f837c0fe-e44d-4478-bd3a-621e2ecfdd50",
+          "columnId" : null,
+          "required" : false,
+          "textType" : 0,
+          "label" : "41a9c8d0-dca9-40e0-a9d2-72a5a4ca4ab8",
+          "format" : "",
+          "foreignKeyId" : null,
+          "parentComponentId" : "67399e71-7de0-4114-9b08-5e206814606d",
+          "parameters" : {
+            "visible" : 1,
+            "disabled" : 0
+          },
+          "id" : "aa7f0efe-fe4f-43c2-863f-bedaa1f3a955",
+          "defaultvalue" : "0",
+          "displayorder" : 1
+        }, {
+          "type" : "GRID_ITEM",
+          "appId" : "f837c0fe-e44d-4478-bd3a-621e2ecfdd50",
+          "columnId" : null,
+          "required" : false,
+          "textType" : 0,
+          "label" : null,
+          "format" : "",
+          "foreignKeyId" : null,
+          "parentComponentId" : "2fe42a7b-464f-4292-b92b-55c87ad6881a",
+          "parameters" : {
+            "name" : "Grid Item2"
+          },
+          "id" : "f83fb9db-cbed-49ea-bac6-0546fefcb52f",
+          "defaultvalue" : "",
+          "displayorder" : 2
+        }, {
+          "type" : "GRID_ITEM",
+          "appId" : "f837c0fe-e44d-4478-bd3a-621e2ecfdd50",
+          "columnId" : null,
+          "required" : false,
+          "textType" : 0,
+          "label" : null,
+          "format" : "",
+          "foreignKeyId" : null,
+          "parentComponentId" : "2fe42a7b-464f-4292-b92b-55c87ad6881a",
+          "parameters" : {
+            "name" : "Grid Item2"
+          },
+          "id" : "04f5bb33-c4a1-40f5-8dcc-58cd27eb2df3",
+          "defaultvalue" : "",
+          "displayorder" : 3
+        }, {
+          "type" : "GRID_ITEM",
+          "appId" : "f837c0fe-e44d-4478-bd3a-621e2ecfdd50",
+          "columnId" : null,
+          "required" : false,
+          "textType" : 0,
+          "label" : null,
+          "format" : "",
+          "foreignKeyId" : null,
+          "parentComponentId" : "2fe42a7b-464f-4292-b92b-55c87ad6881a",
+          "parameters" : {
+            "name" : "Grid Item1"
+          },
+          "id" : "4260a5d6-ff63-47a6-ba6e-5e50adb7a300",
+          "defaultvalue" : "",
+          "displayorder" : 4
+        }, {
+          "type" : "GRID_ITEM",
+          "appId" : "f837c0fe-e44d-4478-bd3a-621e2ecfdd50",
+          "columnId" : null,
+          "required" : false,
+          "textType" : 0,
+          "label" : null,
+          "format" : "",
+          "foreignKeyId" : null,
+          "parentComponentId" : "2fe42a7b-464f-4292-b92b-55c87ad6881a",
+          "parameters" : {
+            "name" : "Grid Item4"
+          },
+          "id" : "97b5b093-7c4d-43f9-b6d5-bfd6f931aaaf",
+          "defaultvalue" : "",
+          "displayorder" : 5
+        }, {
+          "type" : "GRID_ITEM",
+          "appId" : "f837c0fe-e44d-4478-bd3a-621e2ecfdd50",
+          "columnId" : null,
+          "required" : false,
+          "textType" : 0,
+          "label" : null,
+          "format" : "",
+          "foreignKeyId" : null,
+          "parentComponentId" : "2fe42a7b-464f-4292-b92b-55c87ad6881a",
+          "parameters" : {
+            "name" : "Grid Item4"
+          },
+          "id" : "2f96020a-aadb-48ab-a962-dec73aa369c5",
+          "defaultvalue" : "",
+          "displayorder" : 6
+        }, {
+          "type" : "GRID_ITEM",
+          "appId" : "f837c0fe-e44d-4478-bd3a-621e2ecfdd50",
+          "columnId" : null,
+          "required" : false,
+          "textType" : 0,
+          "label" : null,
+          "format" : "",
+          "foreignKeyId" : null,
+          "parentComponentId" : "2fe42a7b-464f-4292-b92b-55c87ad6881a",
+          "parameters" : {
+            "name" : "Grid Item6"
+          },
+          "id" : "e362f77d-3ffb-41a8-9c0c-04f76eeab696",
+          "defaultvalue" : "",
+          "displayorder" : 7
+        }, {
+          "type" : "GRID_ITEM",
+          "appId" : "f837c0fe-e44d-4478-bd3a-621e2ecfdd50",
+          "columnId" : null,
+          "required" : false,
+          "textType" : 0,
+          "label" : null,
+          "format" : "",
+          "foreignKeyId" : null,
+          "parentComponentId" : "2fe42a7b-464f-4292-b92b-55c87ad6881a",
+          "parameters" : {
+            "name" : "Grid Item4"
+          },
+          "id" : "67399e71-7de0-4114-9b08-5e206814606d",
+          "defaultvalue" : "",
+          "displayorder" : 8
+        }, {
+          "type" : "GRID_ITEM",
+          "appId" : "f837c0fe-e44d-4478-bd3a-621e2ecfdd50",
+          "columnId" : null,
+          "required" : false,
+          "textType" : 0,
+          "label" : null,
+          "format" : "",
+          "foreignKeyId" : null,
+          "parentComponentId" : "2fe42a7b-464f-4292-b92b-55c87ad6881a",
+          "parameters" : {
+            "name" : "Grid Item4"
+          },
+          "id" : "e5739d88-f5df-41af-9807-6189f1f75f3d",
+          "defaultvalue" : "",
+          "displayorder" : 9
+        }, {
+          "type" : "GRID_ITEM",
+          "appId" : "f837c0fe-e44d-4478-bd3a-621e2ecfdd50",
+          "columnId" : null,
+          "required" : false,
+          "textType" : 0,
+          "label" : null,
+          "format" : "",
+          "foreignKeyId" : null,
+          "parentComponentId" : "2fe42a7b-464f-4292-b92b-55c87ad6881a",
+          "parameters" : {
+            "name" : "Grid Item5"
+          },
+          "id" : "a84919e8-c6d3-4d9c-a095-fec34fdf6c38",
+          "defaultvalue" : "",
+          "displayorder" : 10
+        } ],
+        "title" : "6f9fd0b0-cac4-4ad0-99b5-1b1adef6df4d",
+        "logicConfiguration" : [ ],
+        "parameters" : { },
+        "tableid" : 72,
+        "datasourceid" : 11,
+        "pagetype" : "Detail",
+        "pagetype" : "Detail"
+      } ],
+      "actionApp" : true,
+      "startPageId" : "a374b69c-dbb6-416c-a733-3afa2089994c",
+      "title" : "df6b4c04-7ba2-49c9-ae4c-53be23a7c754",
+      "trackingUuid" : "9e95e714-e49b-4f4c-ac0f-b0906d04cf97"
+    },
+    "outboundLinks" : {
+      "page" : [ ],
+      "notification" : [ ]
+    }
+  } ],
+  "services" : [ {
+    "id" : 11,
+    "uuid" : "f1df5f27-f13b-4e6d-a8e7-79dabbda612f",
+    "version" : 0,
+    "title" : "G Suite Calendar",
+    "serviceType" : "EXTERNAL_SERVICE",
+    "group" : "EXTERNAL_SERVICE:com.microapp.demo.google.calendar.DemoGoogleCalendarService",
+    "schemaName" : "microapps_g_suite_calenda",
+    "configuration" : {
+      "trackingUuid" : "f58b8a73-9908-4665-97f8-a45cf00c1c68",
+      "entities" : [ {
+        "name" : "calendar_acl",
+        "displayName" : "Calendars' ACL",
+        "description" : "Calendars' Access Control List",
+        "attributes" : [ {
+          "name" : "id",
+          "displayName" : "Id",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 128,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : true,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "acl_id",
+          "displayName" : "ACL ID",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 100,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "calendar_id",
+          "displayName" : "Calendar Id",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 191,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : true,
+          "reference" : {
+            "targetEntityName" : "calendar",
+            "targetEntityAttribute" : "calendar_id",
+            "referenceGroup" : "calendar_acl_calendar_id_calendar"
+          },
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "room_calendar_id",
+          "displayName" : "Room Calendar Id",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 191,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : true,
+          "reference" : {
+            "targetEntityName" : "room",
+            "targetEntityAttribute" : "resource_email",
+            "referenceGroup" : "calendar_acl_room_calendar_id_room"
+          },
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "resource",
+          "displayName" : "Resource flag",
+          "type" : {
+            "baseDataType" : "BOOLEAN",
+            "size" : 0,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "etag",
+          "displayName" : "ETag",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 250,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "scope_type",
+          "displayName" : "Scope Type",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 64,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : true,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "scope_value",
+          "displayName" : "Scope Value",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 100,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : true,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "role",
+          "displayName" : "Role",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 64,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        } ],
+        "filterSettings" : {
+          "predefinedLoadFilters" : [ ],
+          "preselected" : true,
+          "filterable" : false,
+          "selectableAttributes" : false,
+          "mandatory" : true
+        }
+      }, {
+        "name" : "building",
+        "displayName" : "Building",
+        "description" : "List of Buildings",
+        "attributes" : [ {
+          "name" : "etag",
+          "displayName" : "Etag",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 250,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "building_id",
+          "displayName" : "Building Id",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 100,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : true,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "building_name",
+          "displayName" : "Building Name",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 100,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "description",
+          "displayName" : "Description",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 250,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "latitude",
+          "displayName" : "Latitude",
+          "type" : {
+            "baseDataType" : "FLOAT",
+            "size" : 0,
+            "precision" : 10,
+            "scale" : 4
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "longitude",
+          "displayName" : "Longitude",
+          "type" : {
+            "baseDataType" : "FLOAT",
+            "size" : 0,
+            "precision" : 10,
+            "scale" : 4
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        } ],
+        "filterSettings" : {
+          "predefinedLoadFilters" : [ ],
+          "preselected" : true,
+          "filterable" : false,
+          "selectableAttributes" : false,
+          "mandatory" : true
+        }
+      }, {
+        "name" : "event",
+        "displayName" : "Event",
+        "description" : "List of Events from a calendar",
+        "attributes" : [ {
+          "name" : "generated_event_id",
+          "displayName" : "Generated Event Id",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 128,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : true,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "calendar_id",
+          "displayName" : "Calendar Id",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 191,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "reference" : {
+            "targetEntityName" : "calendar",
+            "targetEntityAttribute" : "calendar_id",
+            "referenceGroup" : "event_calendar_id_calendar"
+          },
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "user_calendar_id",
+          "displayName" : "User Calendar Id",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 191,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "reference" : {
+            "targetEntityName" : "user_calendar",
+            "targetEntityAttribute" : "calendar_id",
+            "referenceGroup" : "event_user_calendar_id_user_calendar"
+          },
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "google_event_id",
+          "displayName" : "Google Event Id",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 1024,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "i_cal_uid",
+          "displayName" : "I Cal Uid",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 250,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "name",
+          "displayName" : "Name",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 250,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : true,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "description",
+          "displayName" : "Description",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : -1,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "color_id",
+          "displayName" : "Color Id",
+          "type" : {
+            "baseDataType" : "INTEGER",
+            "bitSize" : "x32",
+            "size" : 0,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : true,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "status",
+          "displayName" : "Status",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 250,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : true,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "created",
+          "displayName" : "Created",
+          "type" : {
+            "baseDataType" : "DATETIME",
+            "size" : 0,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : true,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "updated",
+          "displayName" : "Updated",
+          "type" : {
+            "baseDataType" : "DATETIME",
+            "size" : 0,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : true,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "all_day_event",
+          "displayName" : "All Day Event",
+          "type" : {
+            "baseDataType" : "BOOLEAN",
+            "size" : 0,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : true,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "start_time_original",
+          "displayName" : "Start Time Original",
+          "type" : {
+            "baseDataType" : "DATETIME",
+            "size" : 0,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : true,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "start_time",
+          "displayName" : "Start Time",
+          "type" : {
+            "baseDataType" : "DATETIME",
+            "size" : 0,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : true,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "end_time",
+          "displayName" : "End Time",
+          "type" : {
+            "baseDataType" : "DATETIME",
+            "size" : 0,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : true,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "location",
+          "displayName" : "Location",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 1024,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "visibility",
+          "displayName" : "Visibility",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 250,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "html_link",
+          "displayName" : "Html Link",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 1024,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "hangout_link",
+          "displayName" : "Hangout Link",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 1024,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "creator_id",
+          "displayName" : "Creator Id",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 250,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : true,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "creator_display_name",
+          "displayName" : "Creator Display Name",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 250,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : true,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "creator_email",
+          "displayName" : "Creator Email",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 250,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : true,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "organizer_id",
+          "displayName" : "Organizer Id",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 250,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : true,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "organizer_display_name",
+          "displayName" : "Organizer Display Name",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 250,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : true,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "organizer_email",
+          "displayName" : "Organizer Email",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 250,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : true,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "multi_day_event",
+          "displayName" : "Multi Day Event",
+          "type" : {
+            "baseDataType" : "BOOLEAN",
+            "size" : 0,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        } ],
+        "filterSettings" : {
+          "predefinedLoadFilters" : [ ],
+          "preselected" : true,
+          "filterable" : false,
+          "selectableAttributes" : false,
+          "mandatory" : true
+        }
+      }, {
+        "name" : "room_availability",
+        "displayName" : "Room Availability",
+        "description" : "List of availability intervals for room calendars",
+        "attributes" : [ {
+          "name" : "id",
+          "displayName" : "Id",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 128,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : true,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "room_id",
+          "displayName" : "Room Id",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 100,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "reference" : {
+            "targetEntityName" : "room",
+            "targetEntityAttribute" : "resource_id",
+            "referenceGroup" : "room_availability_room_id_room"
+          },
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "start_time",
+          "displayName" : "Start Time",
+          "type" : {
+            "baseDataType" : "DATETIME",
+            "size" : 0,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : true,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "end_time",
+          "displayName" : "End Time",
+          "type" : {
+            "baseDataType" : "DATETIME",
+            "size" : 0,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : true,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        } ],
+        "filterSettings" : {
+          "predefinedLoadFilters" : [ ],
+          "preselected" : true,
+          "filterable" : false,
+          "selectableAttributes" : false,
+          "mandatory" : true
+        }
+      }, {
+        "name" : "room_feature",
+        "displayName" : "Room Feature",
+        "description" : "List of Room Features",
+        "attributes" : [ {
+          "name" : "id",
+          "displayName" : "Id",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 128,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : true,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "room_id",
+          "displayName" : "Room Id",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 100,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "reference" : {
+            "targetEntityName" : "room",
+            "targetEntityAttribute" : "resource_id",
+            "referenceGroup" : "room_feature_room_id_room"
+          },
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "name",
+          "displayName" : "Name",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 100,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "etag",
+          "displayName" : "Etag",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 250,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        } ],
+        "filterSettings" : {
+          "predefinedLoadFilters" : [ ],
+          "preselected" : true,
+          "filterable" : false,
+          "selectableAttributes" : false,
+          "mandatory" : true
+        }
+      }, {
+        "name" : "sync_token",
+        "displayName" : "Sync Token",
+        "description" : "Internal use sync token storage table",
+        "attributes" : [ {
+          "name" : "token_key",
+          "displayName" : "Token Key",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 191,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : true,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "token",
+          "displayName" : "Token",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 128,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        } ],
+        "filterSettings" : {
+          "predefinedLoadFilters" : [ ],
+          "preselected" : true,
+          "filterable" : false,
+          "selectableAttributes" : false,
+          "mandatory" : true
+        }
+      }, {
+        "name" : "attendee",
+        "displayName" : "Attendee",
+        "description" : "List of Attendees to a calendar event",
+        "attributes" : [ {
+          "name" : "generated_id",
+          "displayName" : "Generated Id",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 128,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : true,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "attendee_id",
+          "displayName" : "Attendee Id",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 100,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : true,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "generated_event_id",
+          "displayName" : "Generated Event Id",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 128,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : true,
+          "reference" : {
+            "targetEntityName" : "event",
+            "targetEntityAttribute" : "generated_event_id",
+            "referenceGroup" : "attendee_generated_event_id_event"
+          },
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "display_name",
+          "displayName" : "Display Name",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 250,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : true,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "email",
+          "displayName" : "Email",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 250,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : true,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "comment",
+          "displayName" : "Comment",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 2000,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "organizer",
+          "displayName" : "Organizer",
+          "type" : {
+            "baseDataType" : "BOOLEAN",
+            "size" : 0,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "optional",
+          "displayName" : "Optional",
+          "type" : {
+            "baseDataType" : "BOOLEAN",
+            "size" : 0,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "resource",
+          "displayName" : "Resource",
+          "type" : {
+            "baseDataType" : "BOOLEAN",
+            "size" : 0,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "response_status",
+          "displayName" : "Response Status",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 250,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        } ],
+        "filterSettings" : {
+          "predefinedLoadFilters" : [ ],
+          "preselected" : true,
+          "filterable" : false,
+          "selectableAttributes" : false,
+          "mandatory" : true
+        }
+      }, {
+        "name" : "room",
+        "displayName" : "Room",
+        "description" : "List of Rooms",
+        "attributes" : [ {
+          "name" : "resource_id",
+          "displayName" : "Resource Id",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 100,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : true,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "etag",
+          "displayName" : "Etag",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 250,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "building_id",
+          "displayName" : "Building Id",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 100,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "reference" : {
+            "targetEntityName" : "building",
+            "targetEntityAttribute" : "building_id",
+            "referenceGroup" : "room_building_id_building"
+          },
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "resource_name",
+          "displayName" : "Resource Name",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 100,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "generated_resource_name",
+          "displayName" : "Generated Resource Name",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 100,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "resource_type",
+          "displayName" : "Resource Type",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 100,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "resource_description",
+          "displayName" : "Resource Description",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 250,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "resource_email",
+          "displayName" : "Resource Email",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 191,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : true,
+          "reference" : {
+            "targetEntityName" : "calendar",
+            "targetEntityAttribute" : "calendar_id",
+            "referenceGroup" : "room_resource_email_calendar"
+          },
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "capacity",
+          "displayName" : "Capacity",
+          "type" : {
+            "baseDataType" : "INTEGER",
+            "bitSize" : "x32",
+            "size" : 0,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "floor_name",
+          "displayName" : "Floor Name",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 100,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "floor_section",
+          "displayName" : "Floor Section",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 100,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "resource_category",
+          "displayName" : "Resource Category",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 100,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "user_visible_description",
+          "displayName" : "User Visible Description",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 250,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "feature_list",
+          "displayName" : "Feature List",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 2000,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        } ],
+        "filterSettings" : {
+          "predefinedLoadFilters" : [ ],
+          "preselected" : true,
+          "filterable" : false,
+          "selectableAttributes" : false,
+          "mandatory" : true
+        }
+      }, {
+        "name" : "attachment",
+        "displayName" : "Attachment",
+        "description" : "List of Attachments to a calendar event",
+        "attributes" : [ {
+          "name" : "generated_attachment_id",
+          "displayName" : "Generated Attachment Id",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 128,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : true,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "file_id",
+          "displayName" : "File Id",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 100,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : true,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "generated_event_id",
+          "displayName" : "Generated Event Id",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 128,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : true,
+          "reference" : {
+            "targetEntityName" : "event",
+            "targetEntityAttribute" : "generated_event_id",
+            "referenceGroup" : "attachment_generated_event_id_event"
+          },
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "file_url",
+          "displayName" : "File Url",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 1024,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "icon_link",
+          "displayName" : "Icon Link",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 1024,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "mime_type",
+          "displayName" : "Mime Type",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 250,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : true,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "title",
+          "displayName" : "Title",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 250,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : true,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        } ],
+        "filterSettings" : {
+          "predefinedLoadFilters" : [ ],
+          "preselected" : true,
+          "filterable" : false,
+          "selectableAttributes" : false,
+          "mandatory" : true
+        }
+      }, {
+        "name" : "user_calendar",
+        "displayName" : "User Calendar",
+        "description" : "The collection of calendars in the user's calendar list",
+        "attributes" : [ {
+          "name" : "id",
+          "displayName" : "Id",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 128,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : true,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "user_id",
+          "displayName" : "User email",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 100,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : true,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "calendar_id",
+          "displayName" : "Calendar email",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 191,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : true,
+          "reference" : {
+            "targetEntityName" : "calendar",
+            "targetEntityAttribute" : "calendar_id",
+            "referenceGroup" : "user_calendar_calendar_id_calendar"
+          },
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "etag",
+          "displayName" : "ETag",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 250,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "summary",
+          "displayName" : "Summary",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 2000,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "description",
+          "displayName" : "Description",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 2000,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "location",
+          "displayName" : "Location",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 2000,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "time_zone",
+          "displayName" : "Time Zone",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 100,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "summary_override",
+          "displayName" : "Summary Override",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 2000,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "color_id",
+          "displayName" : "Color Id",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 100,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "background_color",
+          "displayName" : "Background Color",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 100,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "foreground_color",
+          "displayName" : "Foreground Color",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 100,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "hidden",
+          "displayName" : "Hidden",
+          "type" : {
+            "baseDataType" : "BOOLEAN",
+            "size" : 0,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "selected",
+          "displayName" : "Selected",
+          "type" : {
+            "baseDataType" : "BOOLEAN",
+            "size" : 0,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "primary",
+          "displayName" : "Primary",
+          "type" : {
+            "baseDataType" : "BOOLEAN",
+            "size" : 0,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "access_role",
+          "displayName" : "Access Role",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 250,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : true,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        } ],
+        "filterSettings" : {
+          "predefinedLoadFilters" : [ ],
+          "preselected" : true,
+          "filterable" : false,
+          "selectableAttributes" : false,
+          "mandatory" : true
+        }
+      }, {
+        "name" : "calendar",
+        "displayName" : "Calendar",
+        "description" : "A collection of all existing calendars.",
+        "attributes" : [ {
+          "name" : "calendar_id",
+          "displayName" : "Calendar Id",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 191,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : true,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "summary",
+          "displayName" : "Summary",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 2000,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "description",
+          "displayName" : "Description",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 2000,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "location",
+          "displayName" : "Location",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 2000,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "time_zone",
+          "displayName" : "Time Zone",
+          "type" : {
+            "baseDataType" : "STRING",
+            "size" : 100,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        } ],
+        "filterSettings" : {
+          "predefinedLoadFilters" : [ ],
+          "preselected" : true,
+          "filterable" : false,
+          "selectableAttributes" : false,
+          "mandatory" : true
+        }
+      } ],
+      "schedule" : [ {
+        "synchronizationTypeId" : "FullSynchronization",
+        "useTimeRange" : false,
+        "schedule" : "MANUALLY",
+        "linkedServiceId" : null,
+        "timeRange" : "00:00-04:00"
+      }, {
+        "synchronizationTypeId" : "IncrementalSynchronization",
+        "useTimeRange" : false,
+        "schedule" : "HOURLY",
+        "linkedServiceId" : null,
+        "timeRange" : "00:00-04:00"
+      } ],
+      "serviceName" : "G Suite Calendar",
+      "serviceKey" : "com.microapp.demo.google.calendar.DemoGoogleCalendarService",
+      "serviceVersion" : "0.1.0",
+      "idleState" : false,
+      "entityFilters" : { },
+      "serviceType" : "EXTERNAL_SERVICE"
+    },
+    "context" : { },
+    "tables" : [ {
+      "id" : 72,
+      "title" : "calendar",
+      "displayName" : "Calendar",
+      "entityName" : "calendar",
+      "type" : "TABLE",
+      "loadingType" : "PULL",
+      "columns" : [ {
+        "id" : 953,
+        "title" : "calendar_id",
+        "displayName" : "Calendar Id",
+        "attributeName" : "calendar_id",
+        "type" : "STRING",
+        "nullable" : false,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Calendar Id",
+        "primaryKey" : true
+      }, {
+        "id" : 954,
+        "title" : "summary",
+        "displayName" : "Summary",
+        "attributeName" : "summary",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Summary",
+        "primaryKey" : false
+      }, {
+        "id" : 955,
+        "title" : "description",
+        "displayName" : "Description",
+        "attributeName" : "description",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Description",
+        "primaryKey" : false
+      }, {
+        "id" : 956,
+        "title" : "location",
+        "displayName" : "Location",
+        "attributeName" : "location",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Location",
+        "primaryKey" : false
+      }, {
+        "id" : 957,
+        "title" : "time_zone",
+        "displayName" : "Time Zone",
+        "attributeName" : "time_zone",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Time Zone",
+        "primaryKey" : false
+      } ]
+    }, {
+      "id" : 73,
+      "title" : "building",
+      "displayName" : "Building",
+      "entityName" : "building",
+      "type" : "TABLE",
+      "loadingType" : "PULL",
+      "columns" : [ {
+        "id" : 958,
+        "title" : "etag",
+        "displayName" : "Etag",
+        "attributeName" : "etag",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Etag",
+        "primaryKey" : false
+      }, {
+        "id" : 959,
+        "title" : "building_id",
+        "displayName" : "Building Id",
+        "attributeName" : "building_id",
+        "type" : "STRING",
+        "nullable" : false,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Building Id",
+        "primaryKey" : true
+      }, {
+        "id" : 960,
+        "title" : "building_name",
+        "displayName" : "Building Name",
+        "attributeName" : "building_name",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Building Name",
+        "primaryKey" : false
+      }, {
+        "id" : 961,
+        "title" : "description",
+        "displayName" : "Description",
+        "attributeName" : "description",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Description",
+        "primaryKey" : false
+      }, {
+        "id" : 962,
+        "title" : "latitude",
+        "displayName" : "Latitude",
+        "attributeName" : "latitude",
+        "type" : "DOUBLE",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Latitude",
+        "primaryKey" : false
+      }, {
+        "id" : 963,
+        "title" : "longitude",
+        "displayName" : "Longitude",
+        "attributeName" : "longitude",
+        "type" : "DOUBLE",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Longitude",
+        "primaryKey" : false
+      } ]
+    }, {
+      "id" : 74,
+      "title" : "calendar_acl",
+      "displayName" : "Calendars' ACL",
+      "entityName" : "calendar_acl",
+      "type" : "TABLE",
+      "loadingType" : "PULL",
+      "columns" : [ {
+        "id" : 964,
+        "title" : "id",
+        "displayName" : "Id",
+        "attributeName" : "id",
+        "type" : "STRING",
+        "nullable" : false,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Id",
+        "primaryKey" : true
+      }, {
+        "id" : 965,
+        "title" : "acl_id",
+        "displayName" : "ACL ID",
+        "attributeName" : "acl_id",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "ACL ID",
+        "primaryKey" : false
+      }, {
+        "id" : 966,
+        "title" : "calendar_id",
+        "displayName" : "Calendar Id",
+        "attributeName" : "calendar_id",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Calendar Id",
+        "primaryKey" : false
+      }, {
+        "id" : 967,
+        "title" : "room_calendar_id",
+        "displayName" : "Room Calendar Id",
+        "attributeName" : "room_calendar_id",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Room Calendar Id",
+        "primaryKey" : false
+      }, {
+        "id" : 968,
+        "title" : "resource",
+        "displayName" : "Resource flag",
+        "attributeName" : "resource",
+        "type" : "BOOLEAN",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Resource flag",
+        "primaryKey" : false
+      }, {
+        "id" : 969,
+        "title" : "etag",
+        "displayName" : "ETag",
+        "attributeName" : "etag",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "ETag",
+        "primaryKey" : false
+      }, {
+        "id" : 970,
+        "title" : "scope_type",
+        "displayName" : "Scope Type",
+        "attributeName" : "scope_type",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Scope Type",
+        "primaryKey" : false
+      }, {
+        "id" : 971,
+        "title" : "scope_value",
+        "displayName" : "Scope Value",
+        "attributeName" : "scope_value",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Scope Value",
+        "primaryKey" : false
+      }, {
+        "id" : 972,
+        "title" : "role",
+        "displayName" : "Role",
+        "attributeName" : "role",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Role",
+        "primaryKey" : false
+      } ]
+    }, {
+      "id" : 75,
+      "title" : "room",
+      "displayName" : "Room",
+      "entityName" : "room",
+      "type" : "TABLE",
+      "loadingType" : "PULL",
+      "columns" : [ {
+        "id" : 973,
+        "title" : "resource_id",
+        "displayName" : "Resource Id",
+        "attributeName" : "resource_id",
+        "type" : "STRING",
+        "nullable" : false,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Resource Id",
+        "primaryKey" : true
+      }, {
+        "id" : 974,
+        "title" : "etag",
+        "displayName" : "Etag",
+        "attributeName" : "etag",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Etag",
+        "primaryKey" : false
+      }, {
+        "id" : 975,
+        "title" : "building_id",
+        "displayName" : "Building Id",
+        "attributeName" : "building_id",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Building Id",
+        "primaryKey" : false
+      }, {
+        "id" : 976,
+        "title" : "resource_name",
+        "displayName" : "Resource Name",
+        "attributeName" : "resource_name",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Resource Name",
+        "primaryKey" : false
+      }, {
+        "id" : 977,
+        "title" : "generated_resource_name",
+        "displayName" : "Generated Resource Name",
+        "attributeName" : "generated_resource_name",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Generated Resource Name",
+        "primaryKey" : false
+      }, {
+        "id" : 978,
+        "title" : "resource_type",
+        "displayName" : "Resource Type",
+        "attributeName" : "resource_type",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Resource Type",
+        "primaryKey" : false
+      }, {
+        "id" : 979,
+        "title" : "resource_description",
+        "displayName" : "Resource Description",
+        "attributeName" : "resource_description",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Resource Description",
+        "primaryKey" : false
+      }, {
+        "id" : 980,
+        "title" : "resource_email",
+        "displayName" : "Resource Email",
+        "attributeName" : "resource_email",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Resource Email",
+        "primaryKey" : false
+      }, {
+        "id" : 981,
+        "title" : "capacity",
+        "displayName" : "Capacity",
+        "attributeName" : "capacity",
+        "type" : "INTEGER",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Capacity",
+        "primaryKey" : false
+      }, {
+        "id" : 982,
+        "title" : "floor_name",
+        "displayName" : "Floor Name",
+        "attributeName" : "floor_name",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Floor Name",
+        "primaryKey" : false
+      }, {
+        "id" : 983,
+        "title" : "floor_section",
+        "displayName" : "Floor Section",
+        "attributeName" : "floor_section",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Floor Section",
+        "primaryKey" : false
+      }, {
+        "id" : 984,
+        "title" : "resource_category",
+        "displayName" : "Resource Category",
+        "attributeName" : "resource_category",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Resource Category",
+        "primaryKey" : false
+      }, {
+        "id" : 985,
+        "title" : "user_visible_description",
+        "displayName" : "User Visible Description",
+        "attributeName" : "user_visible_description",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "User Visible Description",
+        "primaryKey" : false
+      }, {
+        "id" : 986,
+        "title" : "feature_list",
+        "displayName" : "Feature List",
+        "attributeName" : "feature_list",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Feature List",
+        "primaryKey" : false
+      } ]
+    }, {
+      "id" : 76,
+      "title" : "room_feature",
+      "displayName" : "Room Feature",
+      "entityName" : "room_feature",
+      "type" : "TABLE",
+      "loadingType" : "PULL",
+      "columns" : [ {
+        "id" : 987,
+        "title" : "id",
+        "displayName" : "Id",
+        "attributeName" : "id",
+        "type" : "STRING",
+        "nullable" : false,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Id",
+        "primaryKey" : true
+      }, {
+        "id" : 988,
+        "title" : "room_id",
+        "displayName" : "Room Id",
+        "attributeName" : "room_id",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Room Id",
+        "primaryKey" : false
+      }, {
+        "id" : 989,
+        "title" : "name",
+        "displayName" : "Name",
+        "attributeName" : "name",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Name",
+        "primaryKey" : false
+      }, {
+        "id" : 990,
+        "title" : "etag",
+        "displayName" : "Etag",
+        "attributeName" : "etag",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Etag",
+        "primaryKey" : false
+      } ]
+    }, {
+      "id" : 77,
+      "title" : "attachment",
+      "displayName" : "Attachment",
+      "entityName" : "attachment",
+      "type" : "TABLE",
+      "loadingType" : "PULL",
+      "columns" : [ {
+        "id" : 991,
+        "title" : "generated_attachment_id",
+        "displayName" : "Generated Attachment Id",
+        "attributeName" : "generated_attachment_id",
+        "type" : "STRING",
+        "nullable" : false,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Generated Attachment Id",
+        "primaryKey" : true
+      }, {
+        "id" : 992,
+        "title" : "file_id",
+        "displayName" : "File Id",
+        "attributeName" : "file_id",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "File Id",
+        "primaryKey" : false
+      }, {
+        "id" : 993,
+        "title" : "generated_event_id",
+        "displayName" : "Generated Event Id",
+        "attributeName" : "generated_event_id",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Generated Event Id",
+        "primaryKey" : false
+      }, {
+        "id" : 994,
+        "title" : "file_url",
+        "displayName" : "File Url",
+        "attributeName" : "file_url",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "File Url",
+        "primaryKey" : false
+      }, {
+        "id" : 995,
+        "title" : "icon_link",
+        "displayName" : "Icon Link",
+        "attributeName" : "icon_link",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Icon Link",
+        "primaryKey" : false
+      }, {
+        "id" : 996,
+        "title" : "mime_type",
+        "displayName" : "Mime Type",
+        "attributeName" : "mime_type",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Mime Type",
+        "primaryKey" : false
+      }, {
+        "id" : 997,
+        "title" : "title",
+        "displayName" : "Title",
+        "attributeName" : "title",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Title",
+        "primaryKey" : false
+      } ]
+    }, {
+      "id" : 78,
+      "title" : "sync_token",
+      "displayName" : "Sync Token",
+      "entityName" : "sync_token",
+      "type" : "TABLE",
+      "loadingType" : "PULL",
+      "columns" : [ {
+        "id" : 998,
+        "title" : "token_key",
+        "displayName" : "Token Key",
+        "attributeName" : "token_key",
+        "type" : "STRING",
+        "nullable" : false,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Token Key",
+        "primaryKey" : true
+      }, {
+        "id" : 999,
+        "title" : "token",
+        "displayName" : "Token",
+        "attributeName" : "token",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Token",
+        "primaryKey" : false
+      } ]
+    }, {
+      "id" : 79,
+      "title" : "event",
+      "displayName" : "Event",
+      "entityName" : "event",
+      "type" : "TABLE",
+      "loadingType" : "PULL",
+      "columns" : [ {
+        "id" : 1000,
+        "title" : "generated_event_id",
+        "displayName" : "Generated Event Id",
+        "attributeName" : "generated_event_id",
+        "type" : "STRING",
+        "nullable" : false,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Generated Event Id",
+        "primaryKey" : true
+      }, {
+        "id" : 1001,
+        "title" : "calendar_id",
+        "displayName" : "Calendar Id",
+        "attributeName" : "calendar_id",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Calendar Id",
+        "primaryKey" : false
+      }, {
+        "id" : 1002,
+        "title" : "user_calendar_id",
+        "displayName" : "User Calendar Id",
+        "attributeName" : "user_calendar_id",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "User Calendar Id",
+        "primaryKey" : false
+      }, {
+        "id" : 1003,
+        "title" : "google_event_id",
+        "displayName" : "Google Event Id",
+        "attributeName" : "google_event_id",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Google Event Id",
+        "primaryKey" : false
+      }, {
+        "id" : 1004,
+        "title" : "i_cal_uid",
+        "displayName" : "I Cal Uid",
+        "attributeName" : "i_cal_uid",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "I Cal Uid",
+        "primaryKey" : false
+      }, {
+        "id" : 1005,
+        "title" : "name",
+        "displayName" : "Name",
+        "attributeName" : "name",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Name",
+        "primaryKey" : false
+      }, {
+        "id" : 1006,
+        "title" : "description",
+        "displayName" : "Description",
+        "attributeName" : "description",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Description",
+        "primaryKey" : false
+      }, {
+        "id" : 1007,
+        "title" : "color_id",
+        "displayName" : "Color Id",
+        "attributeName" : "color_id",
+        "type" : "INTEGER",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Color Id",
+        "primaryKey" : false
+      }, {
+        "id" : 1008,
+        "title" : "status",
+        "displayName" : "Status",
+        "attributeName" : "status",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Status",
+        "primaryKey" : false
+      }, {
+        "id" : 1009,
+        "title" : "created",
+        "displayName" : "Created",
+        "attributeName" : "created",
+        "type" : "TIMESTAMP",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Created",
+        "primaryKey" : false
+      }, {
+        "id" : 1010,
+        "title" : "updated",
+        "displayName" : "Updated",
+        "attributeName" : "updated",
+        "type" : "TIMESTAMP",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Updated",
+        "primaryKey" : false
+      }, {
+        "id" : 1011,
+        "title" : "all_day_event",
+        "displayName" : "All Day Event",
+        "attributeName" : "all_day_event",
+        "type" : "BOOLEAN",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "All Day Event",
+        "primaryKey" : false
+      }, {
+        "id" : 1012,
+        "title" : "start_time_original",
+        "displayName" : "Start Time Original",
+        "attributeName" : "start_time_original",
+        "type" : "TIMESTAMP",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Start Time Original",
+        "primaryKey" : false
+      }, {
+        "id" : 1013,
+        "title" : "start_time",
+        "displayName" : "Start Time",
+        "attributeName" : "start_time",
+        "type" : "TIMESTAMP",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Start Time",
+        "primaryKey" : false
+      }, {
+        "id" : 1014,
+        "title" : "end_time",
+        "displayName" : "End Time",
+        "attributeName" : "end_time",
+        "type" : "TIMESTAMP",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "End Time",
+        "primaryKey" : false
+      }, {
+        "id" : 1015,
+        "title" : "location",
+        "displayName" : "Location",
+        "attributeName" : "location",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Location",
+        "primaryKey" : false
+      }, {
+        "id" : 1016,
+        "title" : "visibility",
+        "displayName" : "Visibility",
+        "attributeName" : "visibility",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Visibility",
+        "primaryKey" : false
+      }, {
+        "id" : 1017,
+        "title" : "html_link",
+        "displayName" : "Html Link",
+        "attributeName" : "html_link",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Html Link",
+        "primaryKey" : false
+      }, {
+        "id" : 1018,
+        "title" : "hangout_link",
+        "displayName" : "Hangout Link",
+        "attributeName" : "hangout_link",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Hangout Link",
+        "primaryKey" : false
+      }, {
+        "id" : 1019,
+        "title" : "creator_id",
+        "displayName" : "Creator Id",
+        "attributeName" : "creator_id",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Creator Id",
+        "primaryKey" : false
+      }, {
+        "id" : 1020,
+        "title" : "creator_display_name",
+        "displayName" : "Creator Display Name",
+        "attributeName" : "creator_display_name",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Creator Display Name",
+        "primaryKey" : false
+      }, {
+        "id" : 1021,
+        "title" : "creator_email",
+        "displayName" : "Creator Email",
+        "attributeName" : "creator_email",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Creator Email",
+        "primaryKey" : false
+      }, {
+        "id" : 1022,
+        "title" : "organizer_id",
+        "displayName" : "Organizer Id",
+        "attributeName" : "organizer_id",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Organizer Id",
+        "primaryKey" : false
+      }, {
+        "id" : 1023,
+        "title" : "organizer_display_name",
+        "displayName" : "Organizer Display Name",
+        "attributeName" : "organizer_display_name",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Organizer Display Name",
+        "primaryKey" : false
+      }, {
+        "id" : 1024,
+        "title" : "organizer_email",
+        "displayName" : "Organizer Email",
+        "attributeName" : "organizer_email",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Organizer Email",
+        "primaryKey" : false
+      }, {
+        "id" : 1025,
+        "title" : "multi_day_event",
+        "displayName" : "Multi Day Event",
+        "attributeName" : "multi_day_event",
+        "type" : "BOOLEAN",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Multi Day Event",
+        "primaryKey" : false
+      } ]
+    }, {
+      "id" : 80,
+      "title" : "room_availability",
+      "displayName" : "Room Availability",
+      "entityName" : "room_availability",
+      "type" : "TABLE",
+      "loadingType" : "PULL",
+      "columns" : [ {
+        "id" : 1026,
+        "title" : "id",
+        "displayName" : "Id",
+        "attributeName" : "id",
+        "type" : "STRING",
+        "nullable" : false,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Id",
+        "primaryKey" : true
+      }, {
+        "id" : 1027,
+        "title" : "room_id",
+        "displayName" : "Room Id",
+        "attributeName" : "room_id",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Room Id",
+        "primaryKey" : false
+      }, {
+        "id" : 1028,
+        "title" : "start_time",
+        "displayName" : "Start Time",
+        "attributeName" : "start_time",
+        "type" : "TIMESTAMP",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Start Time",
+        "primaryKey" : false
+      }, {
+        "id" : 1029,
+        "title" : "end_time",
+        "displayName" : "End Time",
+        "attributeName" : "end_time",
+        "type" : "TIMESTAMP",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "End Time",
+        "primaryKey" : false
+      } ]
+    }, {
+      "id" : 81,
+      "title" : "user_calendar",
+      "displayName" : "User Calendar",
+      "entityName" : "user_calendar",
+      "type" : "TABLE",
+      "loadingType" : "PULL",
+      "columns" : [ {
+        "id" : 1030,
+        "title" : "id",
+        "displayName" : "Id",
+        "attributeName" : "id",
+        "type" : "STRING",
+        "nullable" : false,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Id",
+        "primaryKey" : true
+      }, {
+        "id" : 1031,
+        "title" : "user_id",
+        "displayName" : "User email",
+        "attributeName" : "user_id",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "User email",
+        "primaryKey" : false
+      }, {
+        "id" : 1032,
+        "title" : "calendar_id",
+        "displayName" : "Calendar email",
+        "attributeName" : "calendar_id",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Calendar email",
+        "primaryKey" : false
+      }, {
+        "id" : 1033,
+        "title" : "etag",
+        "displayName" : "ETag",
+        "attributeName" : "etag",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "ETag",
+        "primaryKey" : false
+      }, {
+        "id" : 1034,
+        "title" : "summary",
+        "displayName" : "Summary",
+        "attributeName" : "summary",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Summary",
+        "primaryKey" : false
+      }, {
+        "id" : 1035,
+        "title" : "description",
+        "displayName" : "Description",
+        "attributeName" : "description",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Description",
+        "primaryKey" : false
+      }, {
+        "id" : 1036,
+        "title" : "location",
+        "displayName" : "Location",
+        "attributeName" : "location",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Location",
+        "primaryKey" : false
+      }, {
+        "id" : 1037,
+        "title" : "time_zone",
+        "displayName" : "Time Zone",
+        "attributeName" : "time_zone",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Time Zone",
+        "primaryKey" : false
+      }, {
+        "id" : 1038,
+        "title" : "summary_override",
+        "displayName" : "Summary Override",
+        "attributeName" : "summary_override",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Summary Override",
+        "primaryKey" : false
+      }, {
+        "id" : 1039,
+        "title" : "color_id",
+        "displayName" : "Color Id",
+        "attributeName" : "color_id",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Color Id",
+        "primaryKey" : false
+      }, {
+        "id" : 1040,
+        "title" : "background_color",
+        "displayName" : "Background Color",
+        "attributeName" : "background_color",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Background Color",
+        "primaryKey" : false
+      }, {
+        "id" : 1041,
+        "title" : "foreground_color",
+        "displayName" : "Foreground Color",
+        "attributeName" : "foreground_color",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Foreground Color",
+        "primaryKey" : false
+      }, {
+        "id" : 1042,
+        "title" : "hidden",
+        "displayName" : "Hidden",
+        "attributeName" : "hidden",
+        "type" : "BOOLEAN",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Hidden",
+        "primaryKey" : false
+      }, {
+        "id" : 1043,
+        "title" : "selected",
+        "displayName" : "Selected",
+        "attributeName" : "selected",
+        "type" : "BOOLEAN",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Selected",
+        "primaryKey" : false
+      }, {
+        "id" : 1044,
+        "title" : "primary",
+        "displayName" : "Primary",
+        "attributeName" : "primary",
+        "type" : "BOOLEAN",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Primary",
+        "primaryKey" : false
+      }, {
+        "id" : 1045,
+        "title" : "access_role",
+        "displayName" : "Access Role",
+        "attributeName" : "access_role",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Access Role",
+        "primaryKey" : false
+      } ]
+    }, {
+      "id" : 82,
+      "title" : "attendee",
+      "displayName" : "Attendee",
+      "entityName" : "attendee",
+      "type" : "TABLE",
+      "loadingType" : "PULL",
+      "columns" : [ {
+        "id" : 1046,
+        "title" : "generated_id",
+        "displayName" : "Generated Id",
+        "attributeName" : "generated_id",
+        "type" : "STRING",
+        "nullable" : false,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Generated Id",
+        "primaryKey" : true
+      }, {
+        "id" : 1047,
+        "title" : "attendee_id",
+        "displayName" : "Attendee Id",
+        "attributeName" : "attendee_id",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Attendee Id",
+        "primaryKey" : false
+      }, {
+        "id" : 1048,
+        "title" : "generated_event_id",
+        "displayName" : "Generated Event Id",
+        "attributeName" : "generated_event_id",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Generated Event Id",
+        "primaryKey" : false
+      }, {
+        "id" : 1049,
+        "title" : "display_name",
+        "displayName" : "Display Name",
+        "attributeName" : "display_name",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Display Name",
+        "primaryKey" : false
+      }, {
+        "id" : 1050,
+        "title" : "email",
+        "displayName" : "Email",
+        "attributeName" : "email",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Email",
+        "primaryKey" : false
+      }, {
+        "id" : 1051,
+        "title" : "comment",
+        "displayName" : "Comment",
+        "attributeName" : "comment",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Comment",
+        "primaryKey" : false
+      }, {
+        "id" : 1052,
+        "title" : "organizer",
+        "displayName" : "Organizer",
+        "attributeName" : "organizer",
+        "type" : "BOOLEAN",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Organizer",
+        "primaryKey" : false
+      }, {
+        "id" : 1053,
+        "title" : "optional",
+        "displayName" : "Optional",
+        "attributeName" : "optional",
+        "type" : "BOOLEAN",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Optional",
+        "primaryKey" : false
+      }, {
+        "id" : 1054,
+        "title" : "resource",
+        "displayName" : "Resource",
+        "attributeName" : "resource",
+        "type" : "BOOLEAN",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Resource",
+        "primaryKey" : false
+      }, {
+        "id" : 1055,
+        "title" : "response_status",
+        "displayName" : "Response Status",
+        "attributeName" : "response_status",
+        "type" : "STRING",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Response Status",
+        "primaryKey" : false
+      } ]
+    } ],
+    "relationships" : [ {
+      "id" : 55,
+      "pkTable" : {
+        "id" : 72,
+        "title" : "calendar",
+        "type" : "TABLE"
+      },
+      "fkTable" : {
+        "id" : 74,
+        "title" : "calendar_acl",
+        "type" : "TABLE"
+      },
+      "alias" : "calendar_acl_calendar_id",
+      "userDefined" : false,
+      "scriptDefined" : false,
+      "fkColumnPairs" : [ {
+        "fkId" : 55,
+        "pkColumn" : {
+          "id" : 953,
+          "title" : "calendar_id",
+          "displayName" : "Calendar Id",
+          "attributeName" : "calendar_id",
+          "type" : "STRING",
+          "nullable" : false,
+          "autoIncrement" : false,
+          "roleType" : "DB_COLUMN",
+          "searchable" : true,
+          "readable" : true,
+          "writable" : false,
+          "defaultLabel" : "Calendar Id",
+          "primaryKey" : true
+        },
+        "fkColumn" : {
+          "id" : 966,
+          "title" : "calendar_id",
+          "displayName" : "Calendar Id",
+          "attributeName" : "calendar_id",
+          "type" : "STRING",
+          "nullable" : true,
+          "autoIncrement" : false,
+          "roleType" : "DB_COLUMN",
+          "searchable" : true,
+          "readable" : true,
+          "writable" : false,
+          "defaultLabel" : "Calendar Id",
+          "primaryKey" : false
+        }
+      } ]
+    }, {
+      "id" : 58,
+      "pkTable" : {
+        "id" : 72,
+        "title" : "calendar",
+        "type" : "TABLE"
+      },
+      "fkTable" : {
+        "id" : 75,
+        "title" : "room",
+        "type" : "TABLE"
+      },
+      "alias" : "room_resource_email_calen",
+      "userDefined" : false,
+      "scriptDefined" : false,
+      "fkColumnPairs" : [ {
+        "fkId" : 58,
+        "pkColumn" : {
+          "id" : 953,
+          "title" : "calendar_id",
+          "displayName" : "Calendar Id",
+          "attributeName" : "calendar_id",
+          "type" : "STRING",
+          "nullable" : false,
+          "autoIncrement" : false,
+          "roleType" : "DB_COLUMN",
+          "searchable" : true,
+          "readable" : true,
+          "writable" : false,
+          "defaultLabel" : "Calendar Id",
+          "primaryKey" : true
+        },
+        "fkColumn" : {
+          "id" : 980,
+          "title" : "resource_email",
+          "displayName" : "Resource Email",
+          "attributeName" : "resource_email",
+          "type" : "STRING",
+          "nullable" : true,
+          "autoIncrement" : false,
+          "roleType" : "DB_COLUMN",
+          "searchable" : true,
+          "readable" : true,
+          "writable" : false,
+          "defaultLabel" : "Resource Email",
+          "primaryKey" : false
+        }
+      } ]
+    }, {
+      "id" : 61,
+      "pkTable" : {
+        "id" : 72,
+        "title" : "calendar",
+        "type" : "TABLE"
+      },
+      "fkTable" : {
+        "id" : 79,
+        "title" : "event",
+        "type" : "TABLE"
+      },
+      "alias" : "event_calendar_id_calenda",
+      "userDefined" : false,
+      "scriptDefined" : false,
+      "fkColumnPairs" : [ {
+        "fkId" : 61,
+        "pkColumn" : {
+          "id" : 953,
+          "title" : "calendar_id",
+          "displayName" : "Calendar Id",
+          "attributeName" : "calendar_id",
+          "type" : "STRING",
+          "nullable" : false,
+          "autoIncrement" : false,
+          "roleType" : "DB_COLUMN",
+          "searchable" : true,
+          "readable" : true,
+          "writable" : false,
+          "defaultLabel" : "Calendar Id",
+          "primaryKey" : true
+        },
+        "fkColumn" : {
+          "id" : 1001,
+          "title" : "calendar_id",
+          "displayName" : "Calendar Id",
+          "attributeName" : "calendar_id",
+          "type" : "STRING",
+          "nullable" : true,
+          "autoIncrement" : false,
+          "roleType" : "DB_COLUMN",
+          "searchable" : true,
+          "readable" : true,
+          "writable" : false,
+          "defaultLabel" : "Calendar Id",
+          "primaryKey" : false
+        }
+      } ]
+    }, {
+      "id" : 64,
+      "pkTable" : {
+        "id" : 72,
+        "title" : "calendar",
+        "type" : "TABLE"
+      },
+      "fkTable" : {
+        "id" : 81,
+        "title" : "user_calendar",
+        "type" : "TABLE"
+      },
+      "alias" : "user_calendar_calendar_id",
+      "userDefined" : false,
+      "scriptDefined" : false,
+      "fkColumnPairs" : [ {
+        "fkId" : 64,
+        "pkColumn" : {
+          "id" : 953,
+          "title" : "calendar_id",
+          "displayName" : "Calendar Id",
+          "attributeName" : "calendar_id",
+          "type" : "STRING",
+          "nullable" : false,
+          "autoIncrement" : false,
+          "roleType" : "DB_COLUMN",
+          "searchable" : true,
+          "readable" : true,
+          "writable" : false,
+          "defaultLabel" : "Calendar Id",
+          "primaryKey" : true
+        },
+        "fkColumn" : {
+          "id" : 1032,
+          "title" : "calendar_id",
+          "displayName" : "Calendar email",
+          "attributeName" : "calendar_id",
+          "type" : "STRING",
+          "nullable" : true,
+          "autoIncrement" : false,
+          "roleType" : "DB_COLUMN",
+          "searchable" : true,
+          "readable" : true,
+          "writable" : false,
+          "defaultLabel" : "Calendar email",
+          "primaryKey" : false
+        }
+      } ]
+    }, {
+      "id" : 57,
+      "pkTable" : {
+        "id" : 73,
+        "title" : "building",
+        "type" : "TABLE"
+      },
+      "fkTable" : {
+        "id" : 75,
+        "title" : "room",
+        "type" : "TABLE"
+      },
+      "alias" : "room_building_id_building",
+      "userDefined" : false,
+      "scriptDefined" : false,
+      "fkColumnPairs" : [ {
+        "fkId" : 57,
+        "pkColumn" : {
+          "id" : 959,
+          "title" : "building_id",
+          "displayName" : "Building Id",
+          "attributeName" : "building_id",
+          "type" : "STRING",
+          "nullable" : false,
+          "autoIncrement" : false,
+          "roleType" : "DB_COLUMN",
+          "searchable" : true,
+          "readable" : true,
+          "writable" : false,
+          "defaultLabel" : "Building Id",
+          "primaryKey" : true
+        },
+        "fkColumn" : {
+          "id" : 975,
+          "title" : "building_id",
+          "displayName" : "Building Id",
+          "attributeName" : "building_id",
+          "type" : "STRING",
+          "nullable" : true,
+          "autoIncrement" : false,
+          "roleType" : "DB_COLUMN",
+          "searchable" : true,
+          "readable" : true,
+          "writable" : false,
+          "defaultLabel" : "Building Id",
+          "primaryKey" : false
+        }
+      } ]
+    }, {
+      "id" : 56,
+      "pkTable" : {
+        "id" : 75,
+        "title" : "room",
+        "type" : "TABLE"
+      },
+      "fkTable" : {
+        "id" : 74,
+        "title" : "calendar_acl",
+        "type" : "TABLE"
+      },
+      "alias" : "calendar_acl_room_calenda",
+      "userDefined" : false,
+      "scriptDefined" : false,
+      "fkColumnPairs" : [ {
+        "fkId" : 56,
+        "pkColumn" : {
+          "id" : 980,
+          "title" : "resource_email",
+          "displayName" : "Resource Email",
+          "attributeName" : "resource_email",
+          "type" : "STRING",
+          "nullable" : true,
+          "autoIncrement" : false,
+          "roleType" : "DB_COLUMN",
+          "searchable" : true,
+          "readable" : true,
+          "writable" : false,
+          "defaultLabel" : "Resource Email",
+          "primaryKey" : false
+        },
+        "fkColumn" : {
+          "id" : 967,
+          "title" : "room_calendar_id",
+          "displayName" : "Room Calendar Id",
+          "attributeName" : "room_calendar_id",
+          "type" : "STRING",
+          "nullable" : true,
+          "autoIncrement" : false,
+          "roleType" : "DB_COLUMN",
+          "searchable" : true,
+          "readable" : true,
+          "writable" : false,
+          "defaultLabel" : "Room Calendar Id",
+          "primaryKey" : false
+        }
+      } ]
+    }, {
+      "id" : 59,
+      "pkTable" : {
+        "id" : 75,
+        "title" : "room",
+        "type" : "TABLE"
+      },
+      "fkTable" : {
+        "id" : 76,
+        "title" : "room_feature",
+        "type" : "TABLE"
+      },
+      "alias" : "room_feature_room_id_room",
+      "userDefined" : false,
+      "scriptDefined" : false,
+      "fkColumnPairs" : [ {
+        "fkId" : 59,
+        "pkColumn" : {
+          "id" : 973,
+          "title" : "resource_id",
+          "displayName" : "Resource Id",
+          "attributeName" : "resource_id",
+          "type" : "STRING",
+          "nullable" : false,
+          "autoIncrement" : false,
+          "roleType" : "DB_COLUMN",
+          "searchable" : true,
+          "readable" : true,
+          "writable" : false,
+          "defaultLabel" : "Resource Id",
+          "primaryKey" : true
+        },
+        "fkColumn" : {
+          "id" : 988,
+          "title" : "room_id",
+          "displayName" : "Room Id",
+          "attributeName" : "room_id",
+          "type" : "STRING",
+          "nullable" : true,
+          "autoIncrement" : false,
+          "roleType" : "DB_COLUMN",
+          "searchable" : true,
+          "readable" : true,
+          "writable" : false,
+          "defaultLabel" : "Room Id",
+          "primaryKey" : false
+        }
+      } ]
+    }, {
+      "id" : 63,
+      "pkTable" : {
+        "id" : 75,
+        "title" : "room",
+        "type" : "TABLE"
+      },
+      "fkTable" : {
+        "id" : 80,
+        "title" : "room_availability",
+        "type" : "TABLE"
+      },
+      "alias" : "room_availability_room_id",
+      "userDefined" : false,
+      "scriptDefined" : false,
+      "fkColumnPairs" : [ {
+        "fkId" : 63,
+        "pkColumn" : {
+          "id" : 973,
+          "title" : "resource_id",
+          "displayName" : "Resource Id",
+          "attributeName" : "resource_id",
+          "type" : "STRING",
+          "nullable" : false,
+          "autoIncrement" : false,
+          "roleType" : "DB_COLUMN",
+          "searchable" : true,
+          "readable" : true,
+          "writable" : false,
+          "defaultLabel" : "Resource Id",
+          "primaryKey" : true
+        },
+        "fkColumn" : {
+          "id" : 1027,
+          "title" : "room_id",
+          "displayName" : "Room Id",
+          "attributeName" : "room_id",
+          "type" : "STRING",
+          "nullable" : true,
+          "autoIncrement" : false,
+          "roleType" : "DB_COLUMN",
+          "searchable" : true,
+          "readable" : true,
+          "writable" : false,
+          "defaultLabel" : "Room Id",
+          "primaryKey" : false
+        }
+      } ]
+    }, {
+      "id" : 60,
+      "pkTable" : {
+        "id" : 79,
+        "title" : "event",
+        "type" : "TABLE"
+      },
+      "fkTable" : {
+        "id" : 77,
+        "title" : "attachment",
+        "type" : "TABLE"
+      },
+      "alias" : "attachment_generated_even",
+      "userDefined" : false,
+      "scriptDefined" : false,
+      "fkColumnPairs" : [ {
+        "fkId" : 60,
+        "pkColumn" : {
+          "id" : 1000,
+          "title" : "generated_event_id",
+          "displayName" : "Generated Event Id",
+          "attributeName" : "generated_event_id",
+          "type" : "STRING",
+          "nullable" : false,
+          "autoIncrement" : false,
+          "roleType" : "DB_COLUMN",
+          "searchable" : true,
+          "readable" : true,
+          "writable" : false,
+          "defaultLabel" : "Generated Event Id",
+          "primaryKey" : true
+        },
+        "fkColumn" : {
+          "id" : 993,
+          "title" : "generated_event_id",
+          "displayName" : "Generated Event Id",
+          "attributeName" : "generated_event_id",
+          "type" : "STRING",
+          "nullable" : true,
+          "autoIncrement" : false,
+          "roleType" : "DB_COLUMN",
+          "searchable" : true,
+          "readable" : true,
+          "writable" : false,
+          "defaultLabel" : "Generated Event Id",
+          "primaryKey" : false
+        }
+      } ]
+    }, {
+      "id" : 65,
+      "pkTable" : {
+        "id" : 79,
+        "title" : "event",
+        "type" : "TABLE"
+      },
+      "fkTable" : {
+        "id" : 82,
+        "title" : "attendee",
+        "type" : "TABLE"
+      },
+      "alias" : "attendee_generated_event",
+      "userDefined" : false,
+      "scriptDefined" : false,
+      "fkColumnPairs" : [ {
+        "fkId" : 65,
+        "pkColumn" : {
+          "id" : 1000,
+          "title" : "generated_event_id",
+          "displayName" : "Generated Event Id",
+          "attributeName" : "generated_event_id",
+          "type" : "STRING",
+          "nullable" : false,
+          "autoIncrement" : false,
+          "roleType" : "DB_COLUMN",
+          "searchable" : true,
+          "readable" : true,
+          "writable" : false,
+          "defaultLabel" : "Generated Event Id",
+          "primaryKey" : true
+        },
+        "fkColumn" : {
+          "id" : 1048,
+          "title" : "generated_event_id",
+          "displayName" : "Generated Event Id",
+          "attributeName" : "generated_event_id",
+          "type" : "STRING",
+          "nullable" : true,
+          "autoIncrement" : false,
+          "roleType" : "DB_COLUMN",
+          "searchable" : true,
+          "readable" : true,
+          "writable" : false,
+          "defaultLabel" : "Generated Event Id",
+          "primaryKey" : false
+        }
+      } ]
+    }, {
+      "id" : 62,
+      "pkTable" : {
+        "id" : 81,
+        "title" : "user_calendar",
+        "type" : "TABLE"
+      },
+      "fkTable" : {
+        "id" : 79,
+        "title" : "event",
+        "type" : "TABLE"
+      },
+      "alias" : "event_user_calendar_id_us",
+      "userDefined" : false,
+      "scriptDefined" : false,
+      "fkColumnPairs" : [ {
+        "fkId" : 62,
+        "pkColumn" : {
+          "id" : 1032,
+          "title" : "calendar_id",
+          "displayName" : "Calendar email",
+          "attributeName" : "calendar_id",
+          "type" : "STRING",
+          "nullable" : true,
+          "autoIncrement" : false,
+          "roleType" : "DB_COLUMN",
+          "searchable" : true,
+          "readable" : true,
+          "writable" : false,
+          "defaultLabel" : "Calendar email",
+          "primaryKey" : false
+        },
+        "fkColumn" : {
+          "id" : 1002,
+          "title" : "user_calendar_id",
+          "displayName" : "User Calendar Id",
+          "attributeName" : "user_calendar_id",
+          "type" : "STRING",
+          "nullable" : true,
+          "autoIncrement" : false,
+          "roleType" : "DB_COLUMN",
+          "searchable" : true,
+          "readable" : true,
+          "writable" : false,
+          "defaultLabel" : "User Calendar Id",
+          "primaryKey" : false
+        }
+      } ]
+    } ],
+    "metadata" : {
+      "categories" : [ ],
+      "tags" : [ ],
+      "hideAddButton" : false
+    },
+    "fullyConfigured" : true,
+    "oauthLoginNeeded" : false
+  } ],
+  "notifications" : [ {
+    "id" : "0e415ba9-1352-4f2f-beed-8749d1bfc890",
+    "legacyId" : 21,
+    "appId" : "f837c0fe-e44d-4478-bd3a-621e2ecfdd50",
+    "version" : 5,
+    "eventType" : "REMINDER",
+    "serviceId" : 11,
+    "tableId" : 79,
+    "label" : "6aad560f-f5e8-4dcf-9d0b-24a905ea6536",
+    "schedule" : {
+      "jobSchedule" : "HOURLY",
+      "useTimeRange" : true,
+      "runFrom" : "06:00",
+      "runTo" : "22:00",
+      "runTimezone" : "GMT"
+    },
+    "periodicDefinition" : {
+      "groupByDateColumnId" : 1013,
+      "reminderPeriod" : 1,
+      "reminderType" : "AFTER"
+    },
+    "messageConditions" : {
+      "type" : "TERM",
+      "constraint" : {
+        "tableId" : 79,
+        "columnId" : 1011,
+        "columnType" : "BOOLEAN",
+        "action" : "BECOMES",
+        "comparator" : "NOT_EQUAL_TO",
+        "value" : "1",
+        "valueType" : "VALUE",
+        "rangeIncrement" : "",
+        "format" : ""
+      }
+    },
+    "expirationDelete" : false,
+    "audience" : "ALL",
+    "messageDefinition" : {
+      "title" : "3b1b1ddf-4510-4953-b239-8e14791a4ddf",
+      "body" : "0c780543-1f7a-48bb-90d2-1094bb74082f",
+      "gotoAppPageId" : "773eebbb-56a8-4ee1-9acc-f8c60b766f57",
+      "configuration" : {
+        "color" : "#ffffff",
+        "highPriority" : false,
+        "cardIcon" : {
+          "imageUrl" : "exported/event_reminder.93ee044cf234b898fbb3a8e6c0234922.svg",
+          "type" : "LIBRARY"
+        },
+        "unsubscriptionAllowed" : true
+      },
+      "actionButtonIds" : [ ],
+      "task" : false,
+      "url" : ""
+    },
+    "skipAlreadyProcessedEvents" : false,
+    "hasValidConstraints" : true
+  } ],
+  "resolvers" : [ ],
+  "modelConfiguration" : {
+    "appIds" : [ "f837c0fe-e44d-4478-bd3a-621e2ecfdd50" ],
+    "resolverIds" : [ ],
+    "bundleDescription" : "",
+    "bundleVendor" : "Citrix"
+  },
+  "translationChecksum" : "2616BBF57DFF2EE304DDB05973C645C7",
+  "appliedSappUpgrades" : [ "microapp-6593", "microapp-10860", "microapp-12936", "microapp-5025", "microapp-9597", "microapp-6264", "microapp-8511", "microapp-9701", "microapp-10549", "microapp-10856", "microapp-8921", "microapp-8003", "microapp-7290", "microapp-6617", "microapp-13471", "microapp-1980", "microapp-7888", "microapp-8892", "microapp-10858", "microapp-10420", "microapp-2450", "microapp-3547", "microapp-7561", "microapp-4518", "microapp-4020", "microapp-3580", "microapp-9702", "microapp-8576", "microapp-7961", "microapp-12427", "microapp-6853", "microapp-13233", "microapp-7984", "microapp-6790", "microapp-10421", "microapp-4666", "microapp-5227", "microapp-11349", "microapp-3548", "microapp-8950", "microapp-11136", "microapp-6262", "microapp-11340", "microapp-3838", "microapp-12505", "microapp-10876", "microapp-6293", "microapp-12525", "microapp-11836" ],
+  "buildVersion" : "1.68.0-SNAPSHOT.53b4aafc4d48759db90fed30b0034c844662bbad"
+}

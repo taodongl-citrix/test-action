@@ -1,0 +1,31 @@
+{
+  "type" : "DIP",
+  "vendor" : "Citrix",
+  "id" : "com.sapho.services.successfactors.SuccessFactorsService",
+  "trackingUuid" : "50aef2d9-655d-4d50-a142-c23dd1a9ed23",
+  "version" : "0.3.2",
+  "title" : "SAP SuccessFactors",
+  "description" : "Integrate with SuccessFactors for anywhere access to employee and course information.",
+  "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/SuccessFactors.833a1da8b80b77391f222cbc6210e98c.svg",
+  "masVersion" : "1.30.3",
+  "categories" : [ "WEB_SERVICES" ],
+  "created" : "2020-10-06T12:36:50",
+  "supportsOAuthForActions" : false,
+  "i18nLanguages" : [ "de", "en", "es", "fr", "it", "ja", "nl", "pt-BR", "zh-CN" ],
+  "apps" : [ {
+    "uuid" : "92685e0e-0725-4f07-adb6-ccee54f69d69",
+    "title" : "Directory",
+    "numberOfEvents" : 2,
+    "action" : true
+  }, {
+    "uuid" : "a52ea81b-5b3e-49d4-be0c-a02b661001ca",
+    "title" : "Learning",
+    "numberOfEvents" : 1,
+    "action" : true
+  } ],
+  "vaResolvers" : [ ],
+  "tags" : [ {
+    "tag" : "helpUrl",
+    "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-successfactors.html"
+  } ]
+}

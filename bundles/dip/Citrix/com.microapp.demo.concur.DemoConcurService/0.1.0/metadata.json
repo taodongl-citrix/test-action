@@ -1,0 +1,34 @@
+{
+  "type" : "DIP",
+  "vendor" : "Citrix",
+  "id" : "com.microapp.demo.concur.DemoConcurService",
+  "trackingUuid" : "0973b1da-b8d5-4418-bf42-23276dc786eb",
+  "version" : "0.1.0",
+  "title" : "DEMO SAP Concur",
+  "description" : "",
+  "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/Concur.7f4236c35298ebbe5598db9a66e70273.svg",
+  "masVersion" : "1.80.0",
+  "categories" : [ "DEMO" ],
+  "created" : "2021-04-20T11:08:52",
+  "supportsOAuthForActions" : false,
+  "i18nLanguages" : [ "de", "en", "es", "fr", "ja", "nl", "pt-BR", "zh-CN" ],
+  "apps" : [ {
+    "uuid" : "2834ab56-b2f5-4361-9089-0a9ffbbc2c92",
+    "trackingUuid" : "d4ca460c-03af-4b32-9f6c-fb600ee3cd63",
+    "title" : "Submit Quick Expense (Demo)",
+    "numberOfEvents" : 1,
+    "action" : true
+  }, {
+    "uuid" : "903dda9e-8371-4278-a378-d9a8a96e931a",
+    "trackingUuid" : "4c363835-7e4e-4c76-aad6-d272d5f32fb1",
+    "title" : "Approvals (Demo)",
+    "numberOfEvents" : 3,
+    "action" : false
+  } ],
+  "vaResolvers" : [ ],
+  "tags" : [ {
+    "tag" : "helpUrl",
+    "value" : "https://docs.citrix.com/en-us/citrix-microapps.html"
+  } ],
+  "hideAddButton" : false
+}

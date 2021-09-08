@@ -1,0 +1,104 @@
+{
+  "type" : "DIP",
+  "vendor" : "Citrix",
+  "id" : "com.sapho.services.workday.WorkdayService",
+  "version" : "0.1.15",
+  "title" : "Workday",
+  "description" : "Integrate with Workday to submit Time Off requests, Expenses and Change Job. Receive notifications about the status change of a request, and act on notifications.",
+  "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/Workday.53a6fa429a68457228ca68adf0c387e6.svg",
+  "masVersion" : "1.48.0-SNAPSHOT",
+  "categories" : [ "LEGACY" ],
+  "created" : "2020-12-04T13:06:12",
+  "supportsOAuthForActions" : true,
+  "i18nLanguages" : [ "de", "en", "es", "fr", "it", "ja", "nl", "pt-BR", "zh-CN" ],
+  "apps" : [ {
+    "uuid" : "11183b76-ce46-4719-976a-282d745352b0",
+    "title" : "PTO Requests",
+    "numberOfEvents" : 1,
+    "action" : true
+  }, {
+    "uuid" : "25e407a3-84fd-4201-8089-90f0ed0d946c",
+    "title" : "Create Milestone",
+    "numberOfEvents" : 0,
+    "action" : true
+  }, {
+    "uuid" : "2d01dec3-f488-4966-8ed0-9f44d67eac50",
+    "title" : "Change Job Requests",
+    "numberOfEvents" : 1,
+    "action" : true
+  }, {
+    "uuid" : "322fcb5a-b45c-4edf-8a20-49fe201804ca",
+    "title" : "Milestones",
+    "numberOfEvents" : 1,
+    "action" : true
+  }, {
+    "uuid" : "4d5c81a3-d006-4cf8-bfd5-7e335eef1f53",
+    "title" : "Create Expense Report",
+    "numberOfEvents" : 0,
+    "action" : true
+  }, {
+    "uuid" : "63ac8ddd-f362-418e-a751-343e64a278d7",
+    "title" : "Create PTO Request",
+    "numberOfEvents" : 0,
+    "action" : true
+  }, {
+    "uuid" : "81a5c135-7215-453c-99c5-b5b36377092f",
+    "title" : "Create Change Job",
+    "numberOfEvents" : 0,
+    "action" : true
+  }, {
+    "uuid" : "86eef487-1e8a-4595-90ef-3e3d03493391",
+    "title" : "Expense Reports",
+    "numberOfEvents" : 1,
+    "action" : true
+  }, {
+    "uuid" : "bb860613-24ec-463f-978e-b184402efa26",
+    "title" : "My PTO Requests",
+    "numberOfEvents" : 1,
+    "action" : true
+  }, {
+    "uuid" : "bbc1c6b2-9df8-4571-837d-5e6da3782926",
+    "title" : "PTO Balance",
+    "numberOfEvents" : 0,
+    "action" : false
+  }, {
+    "uuid" : "cfcabeee-480c-4090-8f9d-180c7ddb16f3",
+    "title" : "My Expenses",
+    "numberOfEvents" : 1,
+    "action" : true
+  }, {
+    "uuid" : "e469c502-246f-46a6-8113-03f78da2636e",
+    "title" : "My Purchase Orders",
+    "numberOfEvents" : 0,
+    "action" : true
+        } ],
+        "vaResolvers" : [ {
+          "name" : "Directory Details",
+          "intentName" : "Directory.Details"
+        }, {
+          "name" : "Directory Lookup",
+          "intentName" : "Directory.Lookup"
+        }, {
+          "name" : "Directory Question Address",
+          "intentName" : "Directory.Question.Address"
+        }, {
+          "name" : "Directory Question Email",
+          "intentName" : "Directory.Question.Email"
+        }, {
+          "name" : "Directory Question Location",
+          "intentName" : "Directory.Question.Location"
+        }, {
+          "name" : "Directory Question Manager",
+          "intentName" : "Directory.Question.Manager"
+        }, {
+          "name" : "Directory Question Phone",
+          "intentName" : "Directory.Question.Phone"
+        }, {
+          "name" : "Directory Question Position",
+          "intentName" : "Directory.Question.Position"
+        } ],
+        "tags" : [ {
+          "tag" : "helpUrl",
+          "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-workday.html"
+        } ]
+      }

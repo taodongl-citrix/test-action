@@ -1,0 +1,100 @@
+{
+  "type" : "DIP",
+  "vendor" : "Citrix",
+  "id" : "com.sapho.services.dynamics.DynamicsCrmService",
+  "version" : "0.1.4",
+  "title" : "MS Dynamics CRM",
+  "description" : "",
+  "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/ms-dynamics.28edaa50cab25022690f675dc95e059e.svg",
+  "masVersion" : "1.9.17-SNAPSHOT",
+  "categories" : [ "WEB_SERVICES" ],
+  "created" : "2020-04-09T06:41:15",
+  "supportsOAuthForActions" : true,
+  "i18nLanguages" : [ "de", "en", "es", "fr", "it", "ja", "nl", "pt-BR", "zh-CN" ],
+  "apps" : [ {
+    "uuid" : "8dc4f5ff-5a69-4c6b-9f8d-7fa1b7f0a01e",
+    "title" : "Phone Calls",
+    "numberOfEvents" : 2,
+    "action" : true
+  }, {
+    "uuid" : "f6eb225e-731f-4991-b45b-1281dfac5bcc",
+    "title" : "Cases",
+    "numberOfEvents" : 2,
+    "action" : true
+  }, {
+    "uuid" : "4cddc18f-05e1-4ab7-920b-8b27987b2b32",
+    "title" : "Create Phone Call",
+    "numberOfEvents" : 0,
+    "action" : true
+  }, {
+    "uuid" : "6bfdbcad-4247-4357-9a79-ee37e6932c37",
+    "title" : "Create Opportunity",
+    "numberOfEvents" : 0,
+    "action" : true
+  }, {
+    "uuid" : "196de17e-594f-4334-9be8-9250b5440a5f",
+    "title" : "Tasks",
+    "numberOfEvents" : 2,
+    "action" : true
+  }, {
+    "uuid" : "628ef3f0-933e-48d7-86ba-fb837b8a6a59",
+    "title" : "Create Appointment",
+    "numberOfEvents" : 0,
+    "action" : true
+  }, {
+    "uuid" : "b7440914-6051-46b8-8cb1-3e02f5036326",
+    "title" : "Create Contact",
+    "numberOfEvents" : 0,
+    "action" : true
+  }, {
+    "uuid" : "6ff9e928-4fa7-4838-904a-28a98204f035",
+    "title" : "Accounts",
+    "numberOfEvents" : 2,
+    "action" : true
+  }, {
+    "uuid" : "6047c5a4-a9b7-4cf3-857c-abf0fa357514",
+    "title" : "Appointments",
+    "numberOfEvents" : 2,
+    "action" : true
+  }, {
+    "uuid" : "ba7ee482-9062-462f-a96d-74d23542a406",
+    "title" : "Create Task",
+    "numberOfEvents" : 0,
+    "action" : true
+  }, {
+    "uuid" : "9b0aac83-a9a3-400c-b1d8-f71d3ffdf761",
+    "title" : "Opportunities",
+    "numberOfEvents" : 2,
+    "action" : true
+  }, {
+    "uuid" : "14c89bc0-c168-4a59-b869-4e88622582cd",
+    "title" : "Create Account",
+    "numberOfEvents" : 0,
+    "action" : true
+  }, {
+    "uuid" : "e9915950-9f2c-4b5e-a390-f190ba3a0482",
+    "title" : "Create Case",
+    "numberOfEvents" : 0,
+    "action" : true
+  }, {
+    "uuid" : "55cdba96-7606-4717-82b3-940b10355053",
+    "title" : "Create Lead",
+    "numberOfEvents" : 0,
+    "action" : true
+  }, {
+    "uuid" : "0bc4d360-b7ef-495f-8e00-2580ba818c28",
+    "title" : "Leads",
+    "numberOfEvents" : 2,
+    "action" : true
+  }, {
+    "uuid" : "6b38c258-8292-48ba-85e6-9df4428a14c2",
+    "title" : "Contacts",
+    "numberOfEvents" : 2,
+    "action" : true
+  } ],
+  "vaResolvers" : [ ],
+  "tags" : [ {
+    "tag" : "helpUrl",
+    "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-ms-dynamics.html"
+  } ]
+}

@@ -1,0 +1,31 @@
+{
+  "type" : "DIP",
+  "vendor" : "Citrix",
+  "id" : "com.sapho.services.googleanalytics.GoogleAnalyticsService",
+  "trackingUuid" : "3588cdc4-ab54-41f2-bfd8-93503b97dcb4",
+  "version" : "0.1.0",
+  "title" : "Google Analytics",
+  "description" : "Integrate with Google Analytics to monitor traffic via your configured microapps.",
+  "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/Google_Analytics.4c678d0ef84bf5453ca89619f226d968.svg",
+  "masVersion" : "1.48.0-SNAPSHOT",
+  "categories" : [ "WEB_SERVICES" ],
+  "created" : "2020-12-03T12:07:13",
+  "supportsOAuthForActions" : false,
+  "i18nLanguages" : [ "de", "en", "es", "fr", "it", "ja", "nl", "pt-BR", "zh-CN" ],
+  "apps" : [ {
+    "uuid" : "ae56787e-e957-49a9-8975-9b5d82108750",
+    "title" : "User Metrics",
+    "numberOfEvents" : 4,
+    "action" : true
+  }, {
+    "uuid" : "e4c80544-de8f-486c-9801-bf5d875b208e",
+    "title" : "Sessions Metrics",
+    "numberOfEvents" : 4,
+    "action" : true
+  } ],
+  "vaResolvers" : [ ],
+  "tags" : [ {
+    "tag" : "helpUrl",
+    "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-google-analytics.html"
+  } ]
+}

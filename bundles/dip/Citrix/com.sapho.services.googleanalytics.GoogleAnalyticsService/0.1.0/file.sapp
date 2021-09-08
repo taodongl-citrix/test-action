@@ -1,0 +1,1743 @@
+{
+  "applications" : [ {
+    "appVersion" : {
+      "id" : "ae56787e-e957-49a9-8975-9b5d82108750",
+      "serviceId" : 29,
+      "version" : 5,
+      "pages" : [ {
+        "id" : "1a774b53-bbfb-4251-824f-e30af8b08913",
+        "appId" : "ae56787e-e957-49a9-8975-9b5d82108750",
+        "type" : "DETAIL",
+        "components" : [ {
+          "type" : "TABLE",
+          "appId" : "ae56787e-e957-49a9-8975-9b5d82108750",
+          "columnId" : null,
+          "required" : false,
+          "textType" : null,
+          "label" : "17c9ebc7-e450-4106-a600-03513a478e45",
+          "format" : "",
+          "foreignKeyId" : null,
+          "parentComponentId" : null,
+          "componentTableId" : 446,
+          "defaultLimit" : 20,
+          "parameters" : {
+            "tableconfig" : {
+              "noDataText" : "72e92de9-ea60-4dc8-8477-fa274413db5d",
+              "tableid" : 446,
+              "sqlorder" : {
+                "id" : "a9912319-5a3b-4b73-b8bb-e3ea78dd5f5d",
+                "constraints" : {
+                  "type" : "TERM",
+                  "constraint" : {
+                    "tableId" : 446,
+                    "columnId" : 8037,
+                    "order" : "DESC",
+                    "ignoredWhenValueIsNull" : false
+                  }
+                },
+                "autojoins" : false
+              },
+              "show_1_to_n" : "0",
+              "columns" : [ {
+                "type" : "SIMPLE",
+                "aggregation" : "NONE",
+                "label" : "ad1ae6a7-b0dc-4f53-ab10-89692b81847d",
+                "id" : "crfdv7",
+                "tableid" : 446,
+                "columnid" : 8037,
+                "urlTemplate" : null,
+                "format" : "date",
+                "tableColumn" : {
+                  "columnType" : "DATE"
+                },
+                "conditional_format" : null
+              }, {
+                "type" : "SIMPLE",
+                "aggregation" : "NONE",
+                "label" : "7ed90735-d80b-431b-94f8-052be4119ea4",
+                "id" : "a8ydzh",
+                "tableid" : 446,
+                "columnid" : 8032,
+                "urlTemplate" : null,
+                "format" : "none",
+                "tableColumn" : {
+                  "columnType" : "INTEGER"
+                },
+                "conditional_format" : null
+              }, {
+                "type" : "SIMPLE",
+                "aggregation" : "NONE",
+                "label" : "a6745e4b-85f3-4575-bb7f-f1cc3c712e6b",
+                "id" : "flml1l",
+                "tableid" : 446,
+                "columnid" : 8033,
+                "urlTemplate" : null,
+                "format" : "none",
+                "tableColumn" : {
+                  "columnType" : "INTEGER"
+                },
+                "conditional_format" : null
+              }, {
+                "type" : "SIMPLE",
+                "aggregation" : "NONE",
+                "label" : "acf53fad-c7ab-40bd-a36c-2676e548bf6d",
+                "id" : "147gsr",
+                "tableid" : 446,
+                "columnid" : 8034,
+                "urlTemplate" : null,
+                "format" : "none",
+                "tableColumn" : {
+                  "columnType" : "INTEGER"
+                },
+                "conditional_format" : null
+              }, {
+                "type" : "SIMPLE",
+                "aggregation" : "NONE",
+                "label" : "d7b2843c-7167-4383-b0f2-8c470de81ee5",
+                "id" : "yd4uvm",
+                "tableid" : 446,
+                "columnid" : 8036,
+                "urlTemplate" : null,
+                "format" : "none",
+                "tableColumn" : {
+                  "columnType" : "DOUBLE"
+                },
+                "conditional_format" : null
+              }, {
+                "type" : "SIMPLE",
+                "aggregation" : "NONE",
+                "label" : "0c08d439-c1db-46ac-af73-58c0b4863a9c",
+                "id" : "t61iq2",
+                "tableid" : 446,
+                "columnid" : 8035,
+                "urlTemplate" : null,
+                "format" : "decimal",
+                "tableColumn" : {
+                  "columnType" : "DOUBLE"
+                },
+                "conditional_format" : null
+              } ],
+              "images" : [ ],
+              "groupByColumns" : [ ],
+              "hideIfEmpty" : false,
+              "sortable" : 1,
+              "alignment" : "left"
+            }
+          },
+          "id" : "9a41e609-30e5-45fe-9b8d-7e7e2b109c78",
+          "defaultvalue" : null,
+          "displayorder" : 1,
+          "prefillValue" : null,
+          "defaultLimit" : 20,
+          "tableid" : 446,
+          "pageId" : "1a774b53-bbfb-4251-824f-e30af8b08913"
+        } ],
+        "title" : "cfaa4e3d-90c7-4f9b-a538-fc1990702e44",
+        "logicConfiguration" : [ ],
+        "parameters" : { },
+        "tableid" : 446,
+        "datasourceid" : 29,
+        "pagetype" : "Detail",
+        "pagetype" : "Detail"
+      } ],
+      "actionApp" : true,
+      "startPageId" : "1a774b53-bbfb-4251-824f-e30af8b08913",
+      "parameters" : {
+        "imageUrl" : "https://iws-stage-global-cdn-endpoint.azureedge.net/microapps/assets/exported/report_add.f9e2ea298099fca0aae0fef9380242f3.svg",
+        "description" : "15ff4f5c-ccac-471c-9e4d-c188a7187a9f"
+      },
+      "title" : "bd8e8932-e234-44f7-826a-19b6824e0eda",
+      "trackingUuid" : "63e5fe70-6d40-41f2-9785-6db79149f5d6"
+    },
+    "outboundLinks" : {
+      "page" : [ ],
+      "notification" : [ ]
+    }
+  }, {
+    "appVersion" : {
+      "id" : "e4c80544-de8f-486c-9801-bf5d875b208e",
+      "serviceId" : 29,
+      "version" : 4,
+      "pages" : [ {
+        "id" : "56b25bf0-96d8-4788-832c-23aa6d641da5",
+        "appId" : "e4c80544-de8f-486c-9801-bf5d875b208e",
+        "type" : "DETAIL",
+        "components" : [ {
+          "type" : "TABLE",
+          "appId" : "e4c80544-de8f-486c-9801-bf5d875b208e",
+          "columnId" : null,
+          "required" : false,
+          "textType" : null,
+          "label" : "a401a1e7-999c-4faa-8e1c-89157995e8df",
+          "format" : "",
+          "foreignKeyId" : null,
+          "parentComponentId" : null,
+          "componentTableId" : 449,
+          "defaultLimit" : 20,
+          "parameters" : {
+            "tableconfig" : {
+              "noDataText" : "5f6585f1-e67b-4174-84a7-d4a35bcc2adb",
+              "tableid" : 449,
+              "sqlorder" : {
+                "id" : "57fad727-2ea9-409e-98c1-5be7bb7e96c9",
+                "constraints" : {
+                  "type" : "TERM",
+                  "constraint" : {
+                    "tableId" : 449,
+                    "columnId" : 8053,
+                    "order" : "DESC",
+                    "ignoredWhenValueIsNull" : false
+                  }
+                },
+                "autojoins" : false
+              },
+              "show_1_to_n" : "0",
+              "columns" : [ {
+                "type" : "SIMPLE",
+                "aggregation" : "NONE",
+                "label" : "6c670daf-03d6-4349-9ce6-5de832686241",
+                "id" : "og9bml",
+                "tableid" : 449,
+                "columnid" : 8053,
+                "urlTemplate" : null,
+                "format" : "date",
+                "tableColumn" : {
+                  "columnType" : "DATE"
+                },
+                "conditional_format" : null
+              }, {
+                "type" : "SIMPLE",
+                "aggregation" : "NONE",
+                "label" : "0844a997-12da-4de4-9579-63adaf14f997",
+                "id" : "607hwt",
+                "tableid" : 449,
+                "columnid" : 8048,
+                "urlTemplate" : null,
+                "format" : "none",
+                "tableColumn" : {
+                  "columnType" : "INTEGER"
+                },
+                "conditional_format" : null
+              }, {
+                "type" : "SIMPLE",
+                "aggregation" : "NONE",
+                "label" : "a2d5d3b0-34a8-4920-8d1d-6b98fd52d222",
+                "id" : "1bo06q",
+                "tableid" : 449,
+                "columnid" : 8051,
+                "urlTemplate" : null,
+                "format" : "none",
+                "tableColumn" : {
+                  "columnType" : "DOUBLE"
+                },
+                "conditional_format" : null
+              }, {
+                "type" : "SIMPLE",
+                "aggregation" : "NONE",
+                "label" : "448ad332-eec2-4537-8fe2-7f2801f93b77",
+                "id" : "jzawre",
+                "tableid" : 449,
+                "columnid" : 8049,
+                "urlTemplate" : null,
+                "format" : "none",
+                "tableColumn" : {
+                  "columnType" : "INTEGER"
+                },
+                "conditional_format" : null
+              }, {
+                "type" : "SIMPLE",
+                "aggregation" : "NONE",
+                "label" : "bbf0be96-762b-4f4a-8b79-5373abe426ab",
+                "id" : "e8fr0r",
+                "tableid" : 449,
+                "columnid" : 8050,
+                "urlTemplate" : null,
+                "format" : "decimal",
+                "tableColumn" : {
+                  "columnType" : "DOUBLE"
+                },
+                "conditional_format" : null
+              }, {
+                "type" : "SIMPLE",
+                "aggregation" : "NONE",
+                "label" : "827ffc98-d9e6-4028-8ec3-9c7e24781060",
+                "id" : "rd2ic4",
+                "tableid" : 449,
+                "columnid" : 8052,
+                "urlTemplate" : null,
+                "format" : "none",
+                "tableColumn" : {
+                  "columnType" : "INTEGER"
+                },
+                "conditional_format" : null
+              } ],
+              "images" : [ ],
+              "groupByColumns" : [ ],
+              "hideIfEmpty" : false,
+              "sortable" : 1,
+              "alignment" : "left"
+            }
+          },
+          "id" : "15469de2-cf90-4a3f-bfa1-05f7546de75b",
+          "defaultvalue" : null,
+          "displayorder" : 1,
+          "prefillValue" : null,
+          "defaultLimit" : 20,
+          "tableid" : 8,
+          "pageId" : "09d8c770-4a58-4d30-9cea-b59e8d343d63"
+        } ],
+        "title" : "c009a88a-d954-4c1a-83e7-7aa03c5f0600",
+        "logicConfiguration" : [ ],
+        "parameters" : { },
+        "tableid" : 449,
+        "datasourceid" : 29,
+        "pagetype" : "Detail",
+        "pagetype" : "Detail"
+      } ],
+      "actionApp" : true,
+      "startPageId" : "56b25bf0-96d8-4788-832c-23aa6d641da5",
+      "parameters" : {
+        "imageUrl" : "https://iws-stage-global-cdn-endpoint.azureedge.net/microapps/assets/exported/report_add.f9e2ea298099fca0aae0fef9380242f3.svg",
+        "description" : "99dda5e0-ff89-44d2-8d78-0c4dde89d72e",
+        "forcedImport" : true
+      },
+      "title" : "edfbbc10-3fc0-49ce-85c8-1c2f16e835e5",
+      "trackingUuid" : "c6d5feee-44f8-4b32-8941-81064e9f8f64"
+    },
+    "outboundLinks" : {
+      "page" : [ ],
+      "notification" : [ ]
+    }
+  } ],
+  "services" : [ {
+    "id" : 29,
+    "uuid" : "be1ee89a-8ed6-491c-9a04-4dad69758d07",
+    "version" : 1,
+    "title" : "Google Analytics",
+    "serviceType" : "EXTERNAL_SERVICE",
+    "group" : "EXTERNAL_SERVICE:com.sapho.services.googleanalytics.GoogleAnalyticsService",
+    "schemaName" : "microapps_google_analytic",
+    "configuration" : {
+      "trackingUuid" : "8b234d59-6e10-4d0f-9968-ad59cbec4b77",
+      "entities" : [ {
+        "name" : "PageTrackingMetrics",
+        "displayName" : "Page Tracking Metrics",
+        "description" : "Page tracking metrics per day",
+        "attributes" : [ {
+          "name" : "id",
+          "displayName" : "Id",
+          "type" : {
+            "baseDataType" : "INTEGER",
+            "bitSize" : "x32",
+            "size" : 0,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : true,
+          "indexed" : false,
+          "reference" : {
+            "targetEntityName" : "SessionMetrics",
+            "targetEntityAttribute" : "id",
+            "referenceGroup" : "page_tracking_metrics_id_session_metrics"
+          },
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "page_views",
+          "displayName" : "Page Views",
+          "type" : {
+            "baseDataType" : "INTEGER",
+            "bitSize" : "x32",
+            "size" : 0,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "unique_page_views",
+          "displayName" : "Unique Page Views",
+          "type" : {
+            "baseDataType" : "INTEGER",
+            "bitSize" : "x32",
+            "size" : 0,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "page_views_per_session",
+          "displayName" : "Page Views Per Session",
+          "type" : {
+            "baseDataType" : "FLOAT",
+            "size" : 0,
+            "precision" : 6,
+            "scale" : 2
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "avg_time_on_page",
+          "displayName" : "Avg Time on Page",
+          "type" : {
+            "baseDataType" : "FLOAT",
+            "size" : 0,
+            "precision" : 10,
+            "scale" : 2
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "day",
+          "displayName" : "Day",
+          "type" : {
+            "baseDataType" : "DATE",
+            "size" : 0,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : true,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        } ],
+        "filterSettings" : {
+          "predefinedLoadFilters" : [ ],
+          "preselected" : true,
+          "filterable" : false,
+          "selectableAttributes" : false,
+          "mandatory" : true
+        },
+        "loadingType" : "PULL"
+      }, {
+        "name" : "UserDayMetrics",
+        "displayName" : "User Day Metrics",
+        "description" : "User Metrics calculated over set of days",
+        "attributes" : [ {
+          "name" : "id",
+          "displayName" : "Id",
+          "type" : {
+            "baseDataType" : "INTEGER",
+            "bitSize" : "x32",
+            "size" : 0,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : true,
+          "indexed" : false,
+          "reference" : {
+            "targetEntityName" : "SessionMetrics",
+            "targetEntityAttribute" : "id",
+            "referenceGroup" : "user_day_metrics_id_session_metrics"
+          },
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "day_users_30",
+          "displayName" : "Day Users 30",
+          "type" : {
+            "baseDataType" : "INTEGER",
+            "bitSize" : "x32",
+            "size" : 0,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "day",
+          "displayName" : "Day",
+          "type" : {
+            "baseDataType" : "DATE",
+            "size" : 0,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : true,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        } ],
+        "filterSettings" : {
+          "predefinedLoadFilters" : [ ],
+          "preselected" : true,
+          "filterable" : false,
+          "selectableAttributes" : false,
+          "mandatory" : true
+        },
+        "loadingType" : "PULL"
+      }, {
+        "name" : "UserMetrics",
+        "displayName" : "User Metrics",
+        "description" : "User Metrics per day",
+        "attributes" : [ {
+          "name" : "id",
+          "displayName" : "Id",
+          "type" : {
+            "baseDataType" : "INTEGER",
+            "bitSize" : "x32",
+            "size" : 0,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : true,
+          "indexed" : false,
+          "reference" : {
+            "targetEntityName" : "SessionMetrics",
+            "targetEntityAttribute" : "id",
+            "referenceGroup" : "user_metrics_id_session_metrics"
+          },
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "users",
+          "displayName" : "Users",
+          "type" : {
+            "baseDataType" : "INTEGER",
+            "bitSize" : "x32",
+            "size" : 0,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "new_users",
+          "displayName" : "New Users",
+          "type" : {
+            "baseDataType" : "INTEGER",
+            "bitSize" : "x32",
+            "size" : 0,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "returning_users",
+          "displayName" : "Returning Users",
+          "type" : {
+            "baseDataType" : "INTEGER",
+            "bitSize" : "x32",
+            "size" : 0,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "new_sessions_percent",
+          "displayName" : "New Sessions Percent",
+          "type" : {
+            "baseDataType" : "FLOAT",
+            "size" : 0,
+            "precision" : 6,
+            "scale" : 2
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "sessions_per_user",
+          "displayName" : "Sessions Per User",
+          "type" : {
+            "baseDataType" : "FLOAT",
+            "size" : 0,
+            "precision" : 6,
+            "scale" : 2
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "day",
+          "displayName" : "Day",
+          "type" : {
+            "baseDataType" : "DATE",
+            "size" : 0,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : true,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        } ],
+        "filterSettings" : {
+          "predefinedLoadFilters" : [ ],
+          "preselected" : true,
+          "filterable" : false,
+          "selectableAttributes" : false,
+          "mandatory" : true
+        },
+        "loadingType" : "PULL"
+      }, {
+        "name" : "SessionMetrics",
+        "displayName" : "Session Metrics",
+        "description" : "Session metrics per day",
+        "attributes" : [ {
+          "name" : "id",
+          "displayName" : "Id",
+          "type" : {
+            "baseDataType" : "INTEGER",
+            "bitSize" : "x32",
+            "size" : 0,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : true,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "sessions",
+          "displayName" : "Sessions",
+          "type" : {
+            "baseDataType" : "INTEGER",
+            "bitSize" : "x32",
+            "size" : 0,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "bounces",
+          "displayName" : "Bounces",
+          "type" : {
+            "baseDataType" : "INTEGER",
+            "bitSize" : "x32",
+            "size" : 0,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "bounce_rate_percent",
+          "displayName" : "Bounce Rate Percent",
+          "type" : {
+            "baseDataType" : "FLOAT",
+            "size" : 0,
+            "precision" : 6,
+            "scale" : 2
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "avg_session_duration",
+          "displayName" : "Avg Session Duration",
+          "type" : {
+            "baseDataType" : "FLOAT",
+            "size" : 0,
+            "precision" : 10,
+            "scale" : 2
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "hits",
+          "displayName" : "Hits",
+          "type" : {
+            "baseDataType" : "INTEGER",
+            "bitSize" : "x32",
+            "size" : 0,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : false,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        }, {
+          "name" : "day",
+          "displayName" : "Day",
+          "type" : {
+            "baseDataType" : "DATE",
+            "size" : 0,
+            "precision" : 0,
+            "scale" : 0
+          },
+          "primaryKey" : false,
+          "indexed" : true,
+          "mandatory" : true,
+          "preselected" : true,
+          "sourceId" : false
+        } ],
+        "filterSettings" : {
+          "predefinedLoadFilters" : [ ],
+          "preselected" : true,
+          "filterable" : false,
+          "selectableAttributes" : false,
+          "mandatory" : true
+        },
+        "loadingType" : "PULL"
+      } ],
+      "schedule" : [ {
+        "synchronizationTypeId" : "FullSynchronization",
+        "useTimeRange" : false,
+        "schedule" : "DAILY",
+        "linkedServiceId" : null,
+        "id" : "FullSynchronization",
+        "timeRange" : "00:00-04:00"
+      } ],
+      "serviceName" : "Google Analytics",
+      "serviceKey" : "com.sapho.services.googleanalytics.GoogleAnalyticsService",
+      "serviceVersion" : "0.1.0",
+      "idleState" : false,
+      "entityFilters" : { },
+      "serviceType" : "EXTERNAL_SERVICE"
+    },
+    "context" : { },
+    "tables" : [ {
+      "id" : 446,
+      "title" : "usermetrics",
+      "displayName" : "User Metrics",
+      "entityName" : "UserMetrics",
+      "type" : "TABLE",
+      "loadingType" : "PULL",
+      "columns" : [ {
+        "id" : 8031,
+        "title" : "id",
+        "displayName" : "Id",
+        "attributeName" : "id",
+        "type" : "INTEGER",
+        "nullable" : false,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Id",
+        "primaryKey" : true
+      }, {
+        "id" : 8032,
+        "title" : "users",
+        "displayName" : "Users",
+        "attributeName" : "users",
+        "type" : "INTEGER",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Users",
+        "primaryKey" : false
+      }, {
+        "id" : 8033,
+        "title" : "new_users",
+        "displayName" : "New Users",
+        "attributeName" : "new_users",
+        "type" : "INTEGER",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "New Users",
+        "primaryKey" : false
+      }, {
+        "id" : 8034,
+        "title" : "returning_users",
+        "displayName" : "Returning Users",
+        "attributeName" : "returning_users",
+        "type" : "INTEGER",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Returning Users",
+        "primaryKey" : false
+      }, {
+        "id" : 8035,
+        "title" : "new_sessions_percent",
+        "displayName" : "New Sessions Percent",
+        "attributeName" : "new_sessions_percent",
+        "type" : "DOUBLE",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "New Sessions Percent",
+        "primaryKey" : false
+      }, {
+        "id" : 8036,
+        "title" : "sessions_per_user",
+        "displayName" : "Sessions Per User",
+        "attributeName" : "sessions_per_user",
+        "type" : "DOUBLE",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Sessions Per User",
+        "primaryKey" : false
+      }, {
+        "id" : 8037,
+        "title" : "day",
+        "displayName" : "Day",
+        "attributeName" : "day",
+        "type" : "DATE",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Day",
+        "primaryKey" : false
+      } ]
+    }, {
+      "id" : 447,
+      "title" : "pagetrackingmetrics",
+      "displayName" : "Page Tracking Metrics",
+      "entityName" : "PageTrackingMetrics",
+      "type" : "TABLE",
+      "loadingType" : "PULL",
+      "columns" : [ {
+        "id" : 8038,
+        "title" : "id",
+        "displayName" : "Id",
+        "attributeName" : "id",
+        "type" : "INTEGER",
+        "nullable" : false,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Id",
+        "primaryKey" : true
+      }, {
+        "id" : 8039,
+        "title" : "page_views",
+        "displayName" : "Page Views",
+        "attributeName" : "page_views",
+        "type" : "INTEGER",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Page Views",
+        "primaryKey" : false
+      }, {
+        "id" : 8040,
+        "title" : "unique_page_views",
+        "displayName" : "Unique Page Views",
+        "attributeName" : "unique_page_views",
+        "type" : "INTEGER",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Unique Page Views",
+        "primaryKey" : false
+      }, {
+        "id" : 8041,
+        "title" : "page_views_per_session",
+        "displayName" : "Page Views Per Session",
+        "attributeName" : "page_views_per_session",
+        "type" : "DOUBLE",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Page Views Per Session",
+        "primaryKey" : false
+      }, {
+        "id" : 8042,
+        "title" : "avg_time_on_page",
+        "displayName" : "Avg Time on Page",
+        "attributeName" : "avg_time_on_page",
+        "type" : "DOUBLE",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Avg Time on Page",
+        "primaryKey" : false
+      }, {
+        "id" : 8043,
+        "title" : "day",
+        "displayName" : "Day",
+        "attributeName" : "day",
+        "type" : "DATE",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Day",
+        "primaryKey" : false
+      } ]
+    }, {
+      "id" : 448,
+      "title" : "userdaymetrics",
+      "displayName" : "User Day Metrics",
+      "entityName" : "UserDayMetrics",
+      "type" : "TABLE",
+      "loadingType" : "PULL",
+      "columns" : [ {
+        "id" : 8044,
+        "title" : "id",
+        "displayName" : "Id",
+        "attributeName" : "id",
+        "type" : "INTEGER",
+        "nullable" : false,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Id",
+        "primaryKey" : true
+      }, {
+        "id" : 8045,
+        "title" : "day_users_30",
+        "displayName" : "Day Users 30",
+        "attributeName" : "day_users_30",
+        "type" : "INTEGER",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Day Users 30",
+        "primaryKey" : false
+      }, {
+        "id" : 8046,
+        "title" : "day",
+        "displayName" : "Day",
+        "attributeName" : "day",
+        "type" : "DATE",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Day",
+        "primaryKey" : false
+      } ]
+    }, {
+      "id" : 449,
+      "title" : "sessionmetrics",
+      "displayName" : "Session Metrics",
+      "entityName" : "SessionMetrics",
+      "type" : "TABLE",
+      "loadingType" : "PULL",
+      "columns" : [ {
+        "id" : 8047,
+        "title" : "id",
+        "displayName" : "Id",
+        "attributeName" : "id",
+        "type" : "INTEGER",
+        "nullable" : false,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Id",
+        "primaryKey" : true
+      }, {
+        "id" : 8048,
+        "title" : "sessions",
+        "displayName" : "Sessions",
+        "attributeName" : "sessions",
+        "type" : "INTEGER",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Sessions",
+        "primaryKey" : false
+      }, {
+        "id" : 8049,
+        "title" : "bounces",
+        "displayName" : "Bounces",
+        "attributeName" : "bounces",
+        "type" : "INTEGER",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Bounces",
+        "primaryKey" : false
+      }, {
+        "id" : 8050,
+        "title" : "bounce_rate_percent",
+        "displayName" : "Bounce Rate Percent",
+        "attributeName" : "bounce_rate_percent",
+        "type" : "DOUBLE",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Bounce Rate Percent",
+        "primaryKey" : false
+      }, {
+        "id" : 8051,
+        "title" : "avg_session_duration",
+        "displayName" : "Avg Session Duration",
+        "attributeName" : "avg_session_duration",
+        "type" : "DOUBLE",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Avg Session Duration",
+        "primaryKey" : false
+      }, {
+        "id" : 8052,
+        "title" : "hits",
+        "displayName" : "Hits",
+        "attributeName" : "hits",
+        "type" : "INTEGER",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Hits",
+        "primaryKey" : false
+      }, {
+        "id" : 8053,
+        "title" : "day",
+        "displayName" : "Day",
+        "attributeName" : "day",
+        "type" : "DATE",
+        "nullable" : true,
+        "autoIncrement" : false,
+        "roleType" : "DB_COLUMN",
+        "searchable" : true,
+        "readable" : true,
+        "writable" : false,
+        "defaultLabel" : "Day",
+        "primaryKey" : false
+      } ]
+    } ],
+    "relationships" : [ {
+      "id" : 662,
+      "pkTable" : {
+        "id" : 449,
+        "title" : "sessionmetrics",
+        "type" : "TABLE"
+      },
+      "fkTable" : {
+        "id" : 446,
+        "title" : "usermetrics",
+        "type" : "TABLE"
+      },
+      "alias" : "user_metrics_id_session_m",
+      "userDefined" : false,
+      "scriptDefined" : false,
+      "fkColumnPairs" : [ {
+        "fkId" : 662,
+        "pkColumn" : {
+          "id" : 8047,
+          "title" : "id",
+          "displayName" : "Id",
+          "attributeName" : "id",
+          "type" : "INTEGER",
+          "nullable" : false,
+          "autoIncrement" : false,
+          "roleType" : "DB_COLUMN",
+          "searchable" : true,
+          "readable" : true,
+          "writable" : false,
+          "defaultLabel" : "Id",
+          "primaryKey" : true
+        },
+        "fkColumn" : {
+          "id" : 8031,
+          "title" : "id",
+          "displayName" : "Id",
+          "attributeName" : "id",
+          "type" : "INTEGER",
+          "nullable" : false,
+          "autoIncrement" : false,
+          "roleType" : "DB_COLUMN",
+          "searchable" : true,
+          "readable" : true,
+          "writable" : false,
+          "defaultLabel" : "Id",
+          "primaryKey" : true
+        }
+      } ]
+    }, {
+      "id" : 663,
+      "pkTable" : {
+        "id" : 449,
+        "title" : "sessionmetrics",
+        "type" : "TABLE"
+      },
+      "fkTable" : {
+        "id" : 447,
+        "title" : "pagetrackingmetrics",
+        "type" : "TABLE"
+      },
+      "alias" : "page_tracking_metrics_id",
+      "userDefined" : false,
+      "scriptDefined" : false,
+      "fkColumnPairs" : [ {
+        "fkId" : 663,
+        "pkColumn" : {
+          "id" : 8047,
+          "title" : "id",
+          "displayName" : "Id",
+          "attributeName" : "id",
+          "type" : "INTEGER",
+          "nullable" : false,
+          "autoIncrement" : false,
+          "roleType" : "DB_COLUMN",
+          "searchable" : true,
+          "readable" : true,
+          "writable" : false,
+          "defaultLabel" : "Id",
+          "primaryKey" : true
+        },
+        "fkColumn" : {
+          "id" : 8038,
+          "title" : "id",
+          "displayName" : "Id",
+          "attributeName" : "id",
+          "type" : "INTEGER",
+          "nullable" : false,
+          "autoIncrement" : false,
+          "roleType" : "DB_COLUMN",
+          "searchable" : true,
+          "readable" : true,
+          "writable" : false,
+          "defaultLabel" : "Id",
+          "primaryKey" : true
+        }
+      } ]
+    }, {
+      "id" : 664,
+      "pkTable" : {
+        "id" : 449,
+        "title" : "sessionmetrics",
+        "type" : "TABLE"
+      },
+      "fkTable" : {
+        "id" : 448,
+        "title" : "userdaymetrics",
+        "type" : "TABLE"
+      },
+      "alias" : "user_day_metrics_id_sessi",
+      "userDefined" : false,
+      "scriptDefined" : false,
+      "fkColumnPairs" : [ {
+        "fkId" : 664,
+        "pkColumn" : {
+          "id" : 8047,
+          "title" : "id",
+          "displayName" : "Id",
+          "attributeName" : "id",
+          "type" : "INTEGER",
+          "nullable" : false,
+          "autoIncrement" : false,
+          "roleType" : "DB_COLUMN",
+          "searchable" : true,
+          "readable" : true,
+          "writable" : false,
+          "defaultLabel" : "Id",
+          "primaryKey" : true
+        },
+        "fkColumn" : {
+          "id" : 8044,
+          "title" : "id",
+          "displayName" : "Id",
+          "attributeName" : "id",
+          "type" : "INTEGER",
+          "nullable" : false,
+          "autoIncrement" : false,
+          "roleType" : "DB_COLUMN",
+          "searchable" : true,
+          "readable" : true,
+          "writable" : false,
+          "defaultLabel" : "Id",
+          "primaryKey" : true
+        }
+      } ]
+    } ],
+    "fullyConfigured" : false,
+    "oauthLoginNeeded" : true
+  } ],
+  "notifications" : [ {
+    "id" : "5a0649e7-73cc-4901-9647-f01d9fab2026",
+    "legacyId" : 176,
+    "appId" : "ae56787e-e957-49a9-8975-9b5d82108750",
+    "version" : 1,
+    "eventType" : "PERIODIC",
+    "serviceId" : 29,
+    "tableId" : 446,
+    "label" : "1032ddce-30c8-4c35-8ac5-a6e7e1bf8420",
+    "schedule" : {
+      "jobSchedule" : "WEEKLY",
+      "scheduleDOW" : "MON",
+      "useTimeRange" : false,
+      "runOnWeekdays" : false,
+      "runFrom" : "00:00",
+      "runTo" : "00:00",
+      "scheduleLean" : "FIRST",
+      "scheduleTime" : "14:08",
+      "runTimezone" : "Etc/UTC"
+    },
+    "periodicDefinition" : {
+      "groupByDataUsed" : "LAST",
+      "groupByDateColumnId" : 8037,
+      "groupByDatePeriod" : "WEEK",
+      "reminderPeriod" : 0
+    },
+    "messageConditions" : {
+      "type" : "TERM",
+      "constraint" : {
+        "tableId" : 446,
+        "columnId" : 8032,
+        "columnType" : "INTEGER",
+        "conditionType" : "SUM",
+        "action" : "DEC_BY",
+        "comparator" : "EQUALS_TO",
+        "value" : "10%",
+        "valueType" : "VALUE",
+        "rangeIncrement" : "",
+        "format" : ""
+      }
+    },
+    "expirationDelete" : false,
+    "audience" : "ALL",
+    "messageDefinition" : {
+      "title" : "9f155c8f-fd25-4dad-b6e7-95ec18b4c950",
+      "body" : "433caec0-7e18-4769-aff9-4da56e2e81a6",
+      "gotoAppPageId" : "1a774b53-bbfb-4251-824f-e30af8b08913",
+      "configuration" : {
+        "color" : "",
+        "highPriority" : false,
+        "cardIcon" : {
+          "imageUrl" : "https://iws-stage-global-cdn-endpoint.azureedge.net/microapps/assets/exported/report_reminder.8fc1d6ceabe0ed0a5802f0eab2b4f9cb.svg",
+          "type" : "LIBRARY"
+        }
+      },
+      "actionButtonIds" : [ ],
+      "task" : false,
+      "url" : ""
+    },
+    "skipAlreadyProcessedEvents" : false,
+    "hasValidConstraints" : true
+  }, {
+    "id" : "6796a776-599b-4adc-9cb8-105bbc909547",
+    "legacyId" : 173,
+    "appId" : "ae56787e-e957-49a9-8975-9b5d82108750",
+    "version" : 1,
+    "eventType" : "PERIODIC",
+    "serviceId" : 29,
+    "tableId" : 446,
+    "label" : "b9e9fa84-c84d-4450-b2a5-51b916bb11d8",
+    "schedule" : {
+      "jobSchedule" : "DAILY",
+      "scheduleDOW" : "SUN",
+      "useTimeRange" : false,
+      "runOnWeekdays" : true,
+      "runFrom" : "00:00",
+      "runTo" : "00:00",
+      "scheduleLean" : "FIRST",
+      "scheduleTime" : "14:07",
+      "runTimezone" : "Etc/UTC"
+    },
+    "periodicDefinition" : {
+      "groupByDataUsed" : "SAME",
+      "groupByDateColumnId" : 8037,
+      "groupByDatePeriod" : "DAY",
+      "reminderPeriod" : 0
+    },
+    "messageConditions" : {
+      "type" : "TERM",
+      "constraint" : {
+        "tableId" : 446,
+        "columnId" : 8032,
+        "columnType" : "INTEGER",
+        "conditionType" : "SUM",
+        "action" : "INC_BY",
+        "comparator" : "EQUALS_TO",
+        "value" : "10%",
+        "valueType" : "VALUE",
+        "rangeIncrement" : "",
+        "format" : ""
+      }
+    },
+    "expirationDelete" : false,
+    "audience" : "ALL",
+    "messageDefinition" : {
+      "title" : "1f1da185-553a-48e0-b964-4038c8b094dc",
+      "body" : "5e3f6332-abef-42c9-9ede-a6c9a4fc873b",
+      "gotoAppPageId" : "1a774b53-bbfb-4251-824f-e30af8b08913",
+      "configuration" : {
+        "color" : "",
+        "highPriority" : false,
+        "cardIcon" : {
+          "imageUrl" : "https://iws-stage-global-cdn-endpoint.azureedge.net/microapps/assets/exported/report_reminder.8fc1d6ceabe0ed0a5802f0eab2b4f9cb.svg",
+          "type" : "LIBRARY"
+        }
+      },
+      "actionButtonIds" : [ ],
+      "task" : false,
+      "url" : ""
+    },
+    "skipAlreadyProcessedEvents" : false,
+    "hasValidConstraints" : true
+  }, {
+    "id" : "d38945b5-afb8-4e94-8713-90f4288f3799",
+    "legacyId" : 174,
+    "appId" : "ae56787e-e957-49a9-8975-9b5d82108750",
+    "version" : 1,
+    "eventType" : "PERIODIC",
+    "serviceId" : 29,
+    "tableId" : 446,
+    "label" : "717b2c0a-0a2e-4976-86c9-a6710266d890",
+    "schedule" : {
+      "jobSchedule" : "WEEKLY",
+      "scheduleDOW" : "MON",
+      "useTimeRange" : false,
+      "runOnWeekdays" : false,
+      "runFrom" : "00:00",
+      "runTo" : "00:00",
+      "scheduleLean" : "FIRST",
+      "scheduleTime" : "14:09",
+      "runTimezone" : "Etc/UTC"
+    },
+    "periodicDefinition" : {
+      "groupByDataUsed" : "LAST",
+      "groupByDateColumnId" : 8037,
+      "groupByDatePeriod" : "WEEK",
+      "reminderPeriod" : 0
+    },
+    "messageConditions" : {
+      "type" : "TERM",
+      "constraint" : {
+        "tableId" : 446,
+        "columnId" : 8032,
+        "columnType" : "INTEGER",
+        "conditionType" : "SUM",
+        "action" : "INC_BY",
+        "comparator" : "EQUALS_TO",
+        "value" : "10%",
+        "valueType" : "VALUE",
+        "rangeIncrement" : "",
+        "format" : ""
+      }
+    },
+    "expirationDelete" : false,
+    "audience" : "ALL",
+    "messageDefinition" : {
+      "title" : "0daf167c-9a7c-4211-a766-4d2082c6fd7b",
+      "body" : "4a09ae8a-de76-48e1-a19a-c4c35a4b0bec",
+      "gotoAppPageId" : "1a774b53-bbfb-4251-824f-e30af8b08913",
+      "configuration" : {
+        "color" : "",
+        "highPriority" : false,
+        "cardIcon" : {
+          "imageUrl" : "https://iws-stage-global-cdn-endpoint.azureedge.net/microapps/assets/exported/report_reminder.8fc1d6ceabe0ed0a5802f0eab2b4f9cb.svg",
+          "type" : "LIBRARY"
+        }
+      },
+      "actionButtonIds" : [ ],
+      "task" : false,
+      "url" : ""
+    },
+    "skipAlreadyProcessedEvents" : false,
+    "hasValidConstraints" : true
+  }, {
+    "id" : "ee3f3774-0ad4-4702-be05-e72022c491c7",
+    "legacyId" : 175,
+    "appId" : "ae56787e-e957-49a9-8975-9b5d82108750",
+    "version" : 1,
+    "eventType" : "PERIODIC",
+    "serviceId" : 29,
+    "tableId" : 446,
+    "label" : "683fdff5-3acc-45a5-987c-4197dfbb834b",
+    "schedule" : {
+      "jobSchedule" : "DAILY",
+      "scheduleDOW" : "SUN",
+      "useTimeRange" : false,
+      "runOnWeekdays" : true,
+      "runFrom" : "00:00",
+      "runTo" : "00:00",
+      "scheduleLean" : "FIRST",
+      "scheduleTime" : "13:40",
+      "runTimezone" : "Etc/UTC"
+    },
+    "periodicDefinition" : {
+      "groupByDataUsed" : "SAME",
+      "groupByDateColumnId" : 8037,
+      "groupByDatePeriod" : "DAY",
+      "reminderPeriod" : 0
+    },
+    "messageConditions" : {
+      "type" : "TERM",
+      "constraint" : {
+        "tableId" : 446,
+        "columnId" : 8032,
+        "columnType" : "INTEGER",
+        "conditionType" : "SUM",
+        "action" : "DEC_BY",
+        "comparator" : "EQUALS_TO",
+        "value" : "10%",
+        "valueType" : "VALUE",
+        "rangeIncrement" : "",
+        "format" : ""
+      }
+    },
+    "expirationDelete" : false,
+    "audience" : "ALL",
+    "messageDefinition" : {
+      "title" : "3333e76a-33ac-4b62-8611-20cf736d32ec",
+      "body" : "674496b7-a104-409d-bc85-d7bd0301094b",
+      "gotoAppPageId" : "1a774b53-bbfb-4251-824f-e30af8b08913",
+      "configuration" : {
+        "color" : "",
+        "highPriority" : false,
+        "cardIcon" : {
+          "imageUrl" : "https://iws-stage-global-cdn-endpoint.azureedge.net/microapps/assets/exported/report_reminder.8fc1d6ceabe0ed0a5802f0eab2b4f9cb.svg",
+          "type" : "LIBRARY"
+        }
+      },
+      "actionButtonIds" : [ ],
+      "task" : false,
+      "url" : ""
+    },
+    "skipAlreadyProcessedEvents" : false,
+    "hasValidConstraints" : true
+  }, {
+    "id" : "58dac6ff-43d1-44f6-8c89-be0ec2334477",
+    "legacyId" : 178,
+    "appId" : "e4c80544-de8f-486c-9801-bf5d875b208e",
+    "version" : 1,
+    "eventType" : "PERIODIC",
+    "serviceId" : 29,
+    "tableId" : 449,
+    "label" : "d601808d-62bf-433b-9a76-0445ff6be967",
+    "schedule" : {
+      "jobSchedule" : "DAILY",
+      "scheduleDOW" : "SUN",
+      "useTimeRange" : false,
+      "runOnWeekdays" : true,
+      "runFrom" : "00:00",
+      "runTo" : "00:00",
+      "scheduleLean" : "FIRST",
+      "scheduleTime" : "01:00",
+      "runTimezone" : "Europe/Prague"
+    },
+    "periodicDefinition" : {
+      "groupByDataUsed" : "SAME",
+      "groupByDateColumnId" : 8053,
+      "groupByDatePeriod" : "DAY",
+      "reminderPeriod" : 0
+    },
+    "messageConditions" : {
+      "type" : "TERM",
+      "constraint" : {
+        "tableId" : 449,
+        "columnId" : 8048,
+        "columnType" : "INTEGER",
+        "conditionType" : "SUM",
+        "action" : "DEC_BY",
+        "comparator" : "EQUALS_TO",
+        "value" : "10%",
+        "valueType" : "VALUE",
+        "rangeIncrement" : "",
+        "format" : ""
+      }
+    },
+    "expirationDelete" : false,
+    "audience" : "ALL",
+    "messageDefinition" : {
+      "title" : "e1c7835f-ee3e-4f50-b981-7f86b405d3f9",
+      "body" : "0986579d-4627-4a7b-a1f2-10dcb8ba2894",
+      "gotoAppPageId" : "56b25bf0-96d8-4788-832c-23aa6d641da5",
+      "configuration" : {
+        "color" : "",
+        "highPriority" : false,
+        "cardIcon" : {
+          "imageUrl" : "https://iws-stage-global-cdn-endpoint.azureedge.net/microapps/assets/exported/report_reminder.8fc1d6ceabe0ed0a5802f0eab2b4f9cb.svg",
+          "type" : "LIBRARY"
+        }
+      },
+      "actionButtonIds" : [ ],
+      "task" : false,
+      "url" : ""
+    },
+    "skipAlreadyProcessedEvents" : false,
+    "hasValidConstraints" : true
+  }, {
+    "id" : "76edc27a-6c84-4752-a484-6d133283ebbf",
+    "legacyId" : 179,
+    "appId" : "e4c80544-de8f-486c-9801-bf5d875b208e",
+    "version" : 1,
+    "eventType" : "PERIODIC",
+    "serviceId" : 29,
+    "tableId" : 449,
+    "label" : "04827c5e-4f74-4db1-bcb2-76db2aaa816c",
+    "schedule" : {
+      "jobSchedule" : "DAILY",
+      "scheduleDOW" : "SUN",
+      "useTimeRange" : false,
+      "runOnWeekdays" : true,
+      "runFrom" : "00:00",
+      "runTo" : "00:00",
+      "scheduleLean" : "FIRST",
+      "scheduleTime" : "13:12",
+      "runTimezone" : "Europe/Belgrade"
+    },
+    "periodicDefinition" : {
+      "groupByDataUsed" : "SAME",
+      "groupByDateColumnId" : 8053,
+      "groupByDatePeriod" : "DAY",
+      "reminderPeriod" : 0
+    },
+    "messageConditions" : {
+      "type" : "TERM",
+      "constraint" : {
+        "tableId" : 449,
+        "columnId" : 8048,
+        "columnType" : "INTEGER",
+        "conditionType" : "SUM",
+        "action" : "INC_BY",
+        "comparator" : "EQUALS_TO",
+        "value" : "10%",
+        "valueType" : "VALUE",
+        "rangeIncrement" : "",
+        "format" : ""
+      }
+    },
+    "expirationDelete" : false,
+    "audience" : "ALL",
+    "messageDefinition" : {
+      "title" : "a0668b61-e6fb-4acd-9fd9-857d28d8c76c",
+      "body" : "7f1ff3e8-e85b-4fa9-b448-5e886af87fa0",
+      "gotoAppPageId" : "56b25bf0-96d8-4788-832c-23aa6d641da5",
+      "configuration" : {
+        "color" : "",
+        "highPriority" : false,
+        "cardIcon" : {
+          "imageUrl" : "https://iws-stage-global-cdn-endpoint.azureedge.net/microapps/assets/exported/report_reminder.8fc1d6ceabe0ed0a5802f0eab2b4f9cb.svg",
+          "type" : "LIBRARY"
+        }
+      },
+      "actionButtonIds" : [ ],
+      "task" : false,
+      "url" : ""
+    },
+    "skipAlreadyProcessedEvents" : false,
+    "hasValidConstraints" : true
+  }, {
+    "id" : "d1557775-2fef-40a6-848c-240544acb8cc",
+    "legacyId" : 180,
+    "appId" : "e4c80544-de8f-486c-9801-bf5d875b208e",
+    "version" : 1,
+    "eventType" : "PERIODIC",
+    "serviceId" : 29,
+    "tableId" : 449,
+    "label" : "ff5c8b40-0156-4fd7-8f01-e3cd7a405dbf",
+    "schedule" : {
+      "jobSchedule" : "WEEKLY",
+      "scheduleDOW" : "MON",
+      "useTimeRange" : false,
+      "runOnWeekdays" : false,
+      "runFrom" : "00:00",
+      "runTo" : "00:00",
+      "scheduleLean" : "FIRST",
+      "scheduleTime" : "13:20",
+      "runTimezone" : "Etc/UTC"
+    },
+    "periodicDefinition" : {
+      "groupByDataUsed" : "LAST",
+      "groupByDateColumnId" : 8053,
+      "groupByDatePeriod" : "WEEK",
+      "reminderPeriod" : 0
+    },
+    "messageConditions" : {
+      "type" : "TERM",
+      "constraint" : {
+        "tableId" : 449,
+        "columnId" : 8048,
+        "columnType" : "INTEGER",
+        "conditionType" : "SUM",
+        "action" : "INC_BY",
+        "comparator" : "EQUALS_TO",
+        "value" : "10%",
+        "valueType" : "VALUE",
+        "rangeIncrement" : "",
+        "format" : ""
+      }
+    },
+    "expirationDelete" : false,
+    "audience" : "ALL",
+    "messageDefinition" : {
+      "title" : "9d42dae3-9fa9-4ec9-9c92-7369762d8afa",
+      "body" : "b92fa172-3332-4d8c-a08b-a37313424545",
+      "gotoAppPageId" : "56b25bf0-96d8-4788-832c-23aa6d641da5",
+      "configuration" : {
+        "color" : "",
+        "highPriority" : false,
+        "cardIcon" : {
+          "imageUrl" : "https://iws-stage-global-cdn-endpoint.azureedge.net/microapps/assets/exported/report_reminder.8fc1d6ceabe0ed0a5802f0eab2b4f9cb.svg",
+          "type" : "LIBRARY"
+        }
+      },
+      "actionButtonIds" : [ ],
+      "task" : false,
+      "url" : ""
+    },
+    "skipAlreadyProcessedEvents" : false,
+    "hasValidConstraints" : true
+  }, {
+    "id" : "d1bf7598-060c-4a8a-9d0d-06550a3f95cc",
+    "legacyId" : 177,
+    "appId" : "e4c80544-de8f-486c-9801-bf5d875b208e",
+    "version" : 1,
+    "eventType" : "PERIODIC",
+    "serviceId" : 29,
+    "tableId" : 449,
+    "label" : "de869ec7-5fa5-4d2b-bde6-4e99cf1b5270",
+    "schedule" : {
+      "jobSchedule" : "WEEKLY",
+      "scheduleDOW" : "MON",
+      "useTimeRange" : false,
+      "runOnWeekdays" : false,
+      "runFrom" : "00:00",
+      "runTo" : "00:00",
+      "scheduleLean" : "FIRST",
+      "scheduleTime" : "15:00",
+      "runTimezone" : "Etc/UTC"
+    },
+    "periodicDefinition" : {
+      "groupByDataUsed" : "LAST",
+      "groupByDateColumnId" : 8053,
+      "groupByDatePeriod" : "WEEK",
+      "reminderPeriod" : 0
+    },
+    "messageConditions" : {
+      "type" : "TERM",
+      "constraint" : {
+        "tableId" : 449,
+        "columnId" : 8048,
+        "columnType" : "INTEGER",
+        "conditionType" : "SUM",
+        "action" : "DEC_BY",
+        "comparator" : "EQUALS_TO",
+        "value" : "10%",
+        "valueType" : "VALUE",
+        "rangeIncrement" : "",
+        "format" : ""
+      }
+    },
+    "expirationDelete" : false,
+    "audience" : "ALL",
+    "messageDefinition" : {
+      "title" : "90c65455-d00f-4630-9b11-7baa6a28199a",
+      "body" : "526f0574-9718-42dc-851a-7ea984b99f6b",
+      "gotoAppPageId" : "56b25bf0-96d8-4788-832c-23aa6d641da5",
+      "configuration" : {
+        "color" : "",
+        "highPriority" : false,
+        "cardIcon" : {
+          "imageUrl" : "https://iws-stage-global-cdn-endpoint.azureedge.net/microapps/assets/exported/report_reminder.8fc1d6ceabe0ed0a5802f0eab2b4f9cb.svg",
+          "type" : "LIBRARY"
+        }
+      },
+      "actionButtonIds" : [ ],
+      "task" : false,
+      "url" : ""
+    },
+    "skipAlreadyProcessedEvents" : false,
+    "hasValidConstraints" : true
+  } ],
+  "resolvers" : [ ],
+  "modelConfiguration" : {
+    "appIds" : [ "e4c80544-de8f-486c-9801-bf5d875b208e", "ae56787e-e957-49a9-8975-9b5d82108750" ],
+    "resolverIds" : [ ],
+    "bundleDescription" : "",
+    "bundleVendor" : "Citrix"
+  },
+  "translationChecksum" : "2B90D98C4C9D3C8CB6E7CD64D6B61AFE",
+  "appliedSappUpgrades" : [ "microapp-5025", "microapp-3547", "microapp-7561", "microapp-4518", "microapp-9597", "microapp-6790", "microapp-8892", "microapp-2450", "microapp-8921", "microapp-10856", "microapp-4666", "microapp-1980", "microapp-11349", "microapp-3548", "microapp-7961", "microapp-6264", "microapp-6262", "microapp-8003", "microapp-10858", "microapp-10549", "microapp-4020", "microapp-7888", "microapp-6293", "microapp-7290", "microapp-11340", "microapp-5227", "microapp-8950", "microapp-10876", "microapp-10421", "microapp-10420", "microapp-7984", "microapp-6593", "microapp-9701", "microapp-8576", "microapp-3580", "microapp-11136", "microapp-3838", "microapp-6853", "microapp-6617", "microapp-9702", "microapp-8511" ],
+  "buildVersion" : "1.48.0-SNAPSHOT.b5cf49440d8ef526f5825672df6bceba9404f32a"
+}

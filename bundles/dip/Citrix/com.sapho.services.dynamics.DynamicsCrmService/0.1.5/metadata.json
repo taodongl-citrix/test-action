@@ -1,0 +1,103 @@
+{
+  "type" : "DIP",
+  "vendor" : "Citrix",
+  "id" : "com.sapho.services.dynamics.DynamicsCrmService",
+  "trackingUuid" : "92f71424-cf72-4b51-9fcb-cc8f90b850e1",
+  "version" : "0.1.5",
+  "title" : "MS Dynamics CRM",
+  "description" : "Integrate with Microsoft Dynamics CRM to monitor and manage leads, opportunities, or cases without requiring extra logins",
+  "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/ms-dynamics.28edaa50cab25022690f675dc95e059e.svg",
+  "masVersion" : "1.48.0-SNAPSHOT",
+  "categories" : [ "LEGACY" ],
+  "created" : "2020-12-03T13:41:19",
+  "deprecatedDate": "2021-05-15T00:00:00Z",
+  "eolDateWithSupport": "2021-08-15T00:00:00Z",
+  "supportsOAuthForActions" : true,
+  "i18nLanguages" : [ "de", "en", "es", "fr", "it", "ja", "nl", "pt-BR", "zh-CN" ],
+  "apps" : [ {
+    "uuid" : "02f461e3-52b1-4d32-b747-5d186d2829ff",
+    "title" : "Create Case",
+    "numberOfEvents" : 0,
+    "action" : true
+  }, {
+    "uuid" : "1609eb1d-d2d6-46ff-8bf8-eb4db0e1de1b",
+    "title" : "Cases",
+    "numberOfEvents" : 2,
+    "action" : true
+  }, {
+    "uuid" : "2418086a-d9a3-4a8c-acbe-33e138965c85",
+    "title" : "Create Task",
+    "numberOfEvents" : 0,
+    "action" : true
+  }, {
+    "uuid" : "382134c3-98ec-4444-b083-e27ea57b48dd",
+    "title" : "Create Lead",
+    "numberOfEvents" : 0,
+    "action" : true
+  }, {
+    "uuid" : "4e7a68c9-3804-4dff-81b6-0a8b554ed9d6",
+    "title" : "Create Opportunity",
+    "numberOfEvents" : 0,
+    "action" : true
+  }, {
+    "uuid" : "6c0aab81-f9db-4544-8caf-599944a99929",
+    "title" : "Phone Calls",
+    "numberOfEvents" : 2,
+    "action" : true
+  }, {
+    "uuid" : "782b5e31-3c15-466c-b7ce-7c3c2ad5c2f8",
+    "title" : "Accounts",
+    "numberOfEvents" : 2,
+    "action" : true
+  }, {
+    "uuid" : "854c52e1-ee4e-41de-8dff-86a1f94011be",
+    "title" : "Create Appointment",
+    "numberOfEvents" : 0,
+    "action" : true
+  }, {
+    "uuid" : "8d788e80-45b2-409a-b35e-c2f3d5ba55f7",
+    "title" : "Create Phone Call",
+    "numberOfEvents" : 0,
+    "action" : true
+  }, {
+    "uuid" : "dfb70f5d-4114-45cb-9446-04256bfb604e",
+    "title" : "Opportunities",
+    "numberOfEvents" : 2,
+    "action" : true
+  }, {
+    "uuid" : "e4d10d91-e85b-4d58-bff6-45cd80de5eb3",
+    "title" : "Contacts",
+    "numberOfEvents" : 2,
+    "action" : true
+  }, {
+    "uuid" : "e84a58b1-5235-4c64-addf-bf96df9f751d",
+    "title" : "Create Account",
+    "numberOfEvents" : 0,
+    "action" : true
+  }, {
+    "uuid" : "ed847550-93c5-484a-bfdd-1de2069beb29",
+    "title" : "Create Contact",
+    "numberOfEvents" : 0,
+    "action" : true
+  }, {
+    "uuid" : "ef6fb55a-c281-4ba5-ae07-3dee9def59af",
+    "title" : "Appointments",
+    "numberOfEvents" : 2,
+    "action" : true
+  }, {
+    "uuid" : "f279e966-64f8-4892-80a3-61afb4cce5ed",
+    "title" : "Leads",
+    "numberOfEvents" : 2,
+    "action" : true
+  }, {
+    "uuid" : "fc3df829-fb44-4f53-b0a6-8e3c8ffeb809",
+    "title" : "Tasks",
+    "numberOfEvents" : 2,
+    "action" : true
+  } ],
+  "vaResolvers" : [ ],
+  "tags" : [ {
+    "tag" : "helpUrl",
+    "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-ms-dynamics.html"
+  } ]
+}

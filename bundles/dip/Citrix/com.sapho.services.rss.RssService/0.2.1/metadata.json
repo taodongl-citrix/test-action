@@ -1,0 +1,26 @@
+{
+  "type" : "DIP",
+  "vendor" : "Citrix",
+  "id" : "com.sapho.services.rss.RssService",
+  "trackingUuid" : "573356ce-7166-4434-8233-841a204e5e8c",
+  "version" : "0.2.1",
+  "title" : "RSS",
+  "description" : "",
+  "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/RSS.b2dda706cd7035dfaac710f076fb94ce.svg",
+  "masVersion" : "1.48.0-SNAPSHOT",
+  "categories" : [ "WEB_SERVICES" ],
+  "created" : "2020-12-03T13:48:05",
+  "supportsOAuthForActions" : false,
+  "i18nLanguages" : [ "de", "en", "es", "fr", "it", "ja", "nl", "pt-BR", "zh-CN" ],
+  "apps" : [ {
+    "uuid" : "d96e657c-bdbe-48fd-bdc7-3315a9c2ed7d",
+    "title" : "Items",
+    "numberOfEvents" : 1,
+    "action" : true
+  } ],
+  "vaResolvers" : [ ],
+  "tags" : [ {
+    "tag" : "helpUrl",
+    "value" : "https://docs.citrix.com/en-us/citrix-microapps/set-up-template-integrations/integrate-rss.html"
+  } ]
+}
