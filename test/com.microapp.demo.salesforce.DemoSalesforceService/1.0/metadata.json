@@ -7,7 +7,7 @@
   "description" : "",
   "iconUrl" : "https://ctx-ws-cdn.cloud.com/assets/microapps/exported/Salesforce.43b28006ce57d083904eaa95297a166d.svg",
   "masVersion" : "1.9.17-SNAPSHOT",
-  "categories" : [ "DEMO" ],
+  "categories" : [ "WEB_SERVICESs" ],
   "created" : "2020-04-09T07:12:16",
   "supportsOAuthForActions" : false,
   "i18nLanguages" : [ "de", "en", "es", "fr", "ja", "nl", "pt-BR", "zh-CN" ],
