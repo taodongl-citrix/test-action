@@ -17,3 +17,4 @@ jobs:
           skip: 'bundles/coming_soon/,buundles/'
           slack-channel: gs-pipeline-notification
           slack-access-token: ${{ secrets.SLACKBOT_TOKEN }}
+          github-access-token: ${{ secrets.GITHUB_TOKEN }}
