@@ -15,4 +15,4 @@ jobs:
         uses: citrix-workspace/g11n-scan@feature-PACMAN-3175
         with:
           skip: 'bundles/coming_soon/,buundles/'
-          github-access-token: ${{ secrets.GITHUB_TOKEN }}
+          repoToken: ${{ secrets.GITHUB_TOKEN }}
