@@ -1,7 +1,8 @@
 name: Cloud Build Notifier
 on:
-  check_run:
-    types: [completed]
+  pull_request_target:
+    branches:
+      - master
 jobs:
   notify:
     runs-on: ubuntu-latest
