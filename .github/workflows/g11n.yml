@@ -12,7 +12,7 @@ jobs:
         with:
           ref: ${{ github.event.pull_request.head.sha }}
       - name: G11n Radar
-        uses: citrix-workspace/g11n-scan@feature-PACMAN-3175
+        uses: taodongl-citrix/g11n-scan@master
         with:
           skip: 'bundles/coming_soon/,buundles/'
           repoToken: ${{ secrets.GITHUB_TOKEN }}
